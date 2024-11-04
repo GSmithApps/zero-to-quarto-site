@@ -1,0 +1,5 @@
+---
+title: "Terminal"
+---
+
+This is about the terminal

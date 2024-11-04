@@ -7,8 +7,17 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: main.qmd
+        text: Main
       - href: about.qmd
         text: About
+  
+  sidebar:
+    - title: "Main"
+      contents:
+        - main.qmd
+        - folder-structure.qmd
+        - terminal.qmd
 
 format:
   html:
