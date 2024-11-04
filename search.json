@@ -2,7 +2,7 @@
   {
     "objectID": "CONTRIBUTING.html",
     "href": "CONTRIBUTING.html",
-    "title": "Learning Quarto",
+    "title": "Zero to Quarto",
     "section": "",
     "text": "quarto publish gh-pages https://quarto.org/docs/publishing/github-pages.html#publishing"
   },
