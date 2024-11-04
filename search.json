@@ -14,6 +14,38 @@
     "text": "In this tour, we’ll go over over\n\nFolder Structure\nTerminal"
   },
   {
+    "objectID": "folder-structure.html",
+    "href": "folder-structure.html",
+    "title": "Folder Structure",
+    "section": "",
+    "text": "This is about folder structure",
+    "crumbs": [
+      "Main",
+      "Folder Structure"
+    ]
+  },
+  {
+    "objectID": "terminal.html",
+    "href": "terminal.html",
+    "title": "Terminal",
+    "section": "",
+    "text": "This is about the terminal",
+    "crumbs": [
+      "Main",
+      "Terminal"
+    ]
+  },
+  {
+    "objectID": "main.html",
+    "href": "main.html",
+    "title": "Main",
+    "section": "",
+    "text": "This is the main content",
+    "crumbs": [
+      "Main"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
