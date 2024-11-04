@@ -1,0 +1,15 @@
+---
+title: "Home"
+---
+
+This is where I'm testing learning about Quarto
+
+As some example content to tinker with, I killed
+two birds with one stone and made a page
+about recent donations to GiveWell.  I wanted
+to plot recent donations, and I wanted to see
+if I could smooth them out over time, and I think it
+worked nicely.
+
+One remaining item I have for learning quarto is
+figuring out how to publish it to github pages.
