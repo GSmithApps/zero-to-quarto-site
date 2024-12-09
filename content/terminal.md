@@ -1,0 +1,36 @@
+---
+title: "Terminal"
+marp: true
+class: invert
+---
+
+This is about the terminal
+
+---
+
+# Fast Facts/Cheat Sheet
+
+- `cd` - change directory
+- `ls` - list files (mac/linux... `dir` on windows)
+- `pwd` - print working directory
+- `.` is the current directory
+- `..` is the parent directory
+- On mac and linux, your user folder has a shortcut name/alias called `~`.
+- Your user folder is where your terminal opens by default.
+
+---
+
+# Navigating Around
+
+When you are using the terminal, you are always in a certain location in your computer's file system. You can move around using the `cd` command, and you can see where you are using the `pwd` command.
+
+This may sound boring, but this is actually one of the fundamental things that computers do: move around and operate on the file system.
+
+---
+
+# Environment Variables
+
+Environment variables that the computer has stored that can be used by programs or the terminal.
+
+- `PATH` - where the system looks for executables. This is explained more in the next page.
+- 

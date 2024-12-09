@@ -1,9 +1,0 @@
----
-title: "Zero To Quarto"
----
-
-In this tour, we'll go over over
-
-- Folder Structure
-- Terminal
-- 

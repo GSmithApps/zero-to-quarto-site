@@ -1,5 +1,0 @@
----
-title: "Main"
----
-
-This is the main content

@@ -1,0 +1,11 @@
+---
+title: Python
+---
+
+virtual environments
+
+sharing code with edittable installs
+
+```python
+print(2+2)
+```

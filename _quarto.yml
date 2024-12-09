@@ -2,22 +2,26 @@ project:
   type: website
 
 website:
-  title: "Zero to Quarto"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: main.qmd
-        text: Main
-      - href: about.qmd
-        text: About
+  # title: "Zero to Quarto"
+  # navbar:
+  #   left:
+  #     - href: main.qmd
+  #       text: Main
+  #     - href: about.qmd
+  #       text: About
   
   sidebar:
-    - title: "Main"
+    - title: "Zero to Quarto"
       contents:
-        - main.qmd
-        - folder-structure.qmd
-        - terminal.qmd
+        - home.md
+        - section: "Lessons"
+          contents:
+          - content/folder-structure.md
+          - content/terminal.md
+          - content/python.qmd
+          - content/quarto.qmd
+          - content/path-variable.qmd
+          - content/vscode.md
 
 format:
   html:
