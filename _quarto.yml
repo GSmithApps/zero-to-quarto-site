@@ -18,10 +18,13 @@ website:
           contents:
           - content/folder-structure.md
           - content/terminal.md
-          - content/python.qmd
-          - content/quarto.qmd
-          - content/path-variable.qmd
+          - content/path-variable.md
           - content/vscode.md
+          - content/markdown.md
+          - content/git.md
+          - content/python.qmd
+          - content/virtual-environments.md
+          - content/quarto.qmd
 
 format:
   html:

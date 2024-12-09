@@ -5,3 +5,5 @@ title: Quarto
 Here we'll learn about Quarto. 
 
 We'll learn about how to publish jupyter notebooks as markdown files.
+
+Quarto has an advantage because it is easy to version control.
