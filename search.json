@@ -2,54 +2,95 @@
   {
     "objectID": "CONTRIBUTING.html",
     "href": "CONTRIBUTING.html",
-    "title": "Zero to Quarto",
+    "title": "",
     "section": "",
     "text": "quarto publish gh-pages https://quarto.org/docs/publishing/github-pages.html#publishing"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Zero To Quarto",
-    "section": "",
-    "text": "In this tour, we’ll go over over\n\nFolder Structure\nTerminal"
-  },
-  {
-    "objectID": "folder-structure.html",
-    "href": "folder-structure.html",
+    "objectID": "content/folder-structure.html",
+    "href": "content/folder-structure.html",
     "title": "Folder Structure",
     "section": "",
-    "text": "This is about folder structure",
+    "text": "This is about the folder structure on your computer.\n\n\nFast Facts\n\nMac and linux usually use forward slashes /. Windows uses backslashes \\.\n\nIn many programming languages (including python), the backslash is an escape character, so you have to use two backslashes \\\\ to get one.\n\n\n\nThere are two folders that are of particular importance: your user folder, and your OneDrive folder.\n\n\n\nUser Folder\n\nYour user folder is usually in /Users/&lt;your-name&gt;. So, mine is in /Users/grantsmith.\nYou have free reign in here. You usually don’t need admin to do things here, and you can’t break things as much when operating here.\nWhen you do things above that folder is sometimes when you need admin and when you can break things.\n\n\n\n\nOneDrive Folder\n\nOftentimes IT will suggest that you work in your OneDrive folder or something within it. In this course, we mostly won’t do that.",
     "crumbs": [
-      "Main",
+      "Lessons",
       "Folder Structure"
     ]
   },
   {
-    "objectID": "terminal.html",
-    "href": "terminal.html",
+    "objectID": "content/git.html",
+    "href": "content/git.html",
+    "title": "Git",
+    "section": "",
+    "text": "Git is for version control.\nIt lets you see differences between versions of files.\nIt also lets you collaborate with people across the world.",
+    "crumbs": [
+      "Lessons",
+      "Git"
+    ]
+  },
+  {
+    "objectID": "content/terminal.html",
+    "href": "content/terminal.html",
     "title": "Terminal",
     "section": "",
-    "text": "This is about the terminal",
+    "text": "This is about the terminal\n\n\nFast Facts/Cheat Sheet\n\ncd - change directory\nls - list files (mac/linux… dir on windows)\npwd - print working directory\n. is the current directory\n.. is the parent directory\nOn mac and linux, your user folder has a shortcut name/alias called ~.\nYour user folder is where your terminal opens by default.\n\n\n\n\nNavigating Around\nWhen you are using the terminal, you are always in a certain location in your computer’s file system. You can move around using the cd command, and you can see where you are using the pwd command.\nThis may sound boring, but this is actually one of the fundamental things that computers do: move around and operate on the file system.\n\n\n\nEnvironment Variables\nEnvironment variables that the computer has stored that can be used by programs or the terminal.\n\nPATH - where the system looks for executables. This is explained more in the next page.",
     "crumbs": [
-      "Main",
+      "Lessons",
       "Terminal"
     ]
   },
   {
-    "objectID": "main.html",
-    "href": "main.html",
-    "title": "Main",
+    "objectID": "content/python.html",
+    "href": "content/python.html",
+    "title": "Python",
     "section": "",
-    "text": "This is the main content",
+    "text": "virtual environments\nprint(2+2)",
     "crumbs": [
-      "Main"
+      "Lessons",
+      "Python"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "content/virtual-environments.html",
+    "href": "content/virtual-environments.html",
+    "title": "Virtual Environments",
     "section": "",
-    "text": "This site is made for a course that shows people how to use their computer a little better to go from not knowing much programming all the way to using Python and Quarto.\nIt’s designed for engineers, scientists, or researchers who might benefit from some of these things, for example, if they’ve felt some pain points from things such as spreadsheets or not being able to publish their work."
+    "text": "virtual environments\nmodify the PATH variable.\nsharing code with edittable installs",
+    "crumbs": [
+      "Lessons",
+      "Virtual Environments"
+    ]
+  },
+  {
+    "objectID": "content/quarto.html",
+    "href": "content/quarto.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "Here we’ll learn about Quarto.\nWe’ll learn about how to publish jupyter notebooks as markdown files.\nQuarto has an advantage because it is easy to version control.",
+    "crumbs": [
+      "Lessons",
+      "Quarto"
+    ]
+  },
+  {
+    "objectID": "content/path-variable.html",
+    "href": "content/path-variable.html",
+    "title": "Path Variable",
+    "section": "",
+    "text": "The PATH is an important environment variable. It tells your computer where to look for programs to run. - For example, when you type python in the terminal, the computer looks in the directories listed in the PATH variable to find the python program.",
+    "crumbs": [
+      "Lessons",
+      "Path Variable"
+    ]
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Home",
+    "section": "",
+    "text": "In this tour, we’ll go over over\n\nFolder Structure\nTerminal\n\n\n\nAbout\nThis site is made for a course that shows people how to use their computer a little better to go from not knowing much programming all the way to using Python and Quarto.\nIt’s designed for engineers, scientists, or researchers who might benefit from some of these things, for example, if they’ve felt some pain points from things such as spreadsheets or not being able to publish their work.\nThe GitHub repo that makes this site is here↗\nWe want these scientists and researchers to get the benefits of using code – chief among which are\n\nversion control and working with the open source community\npublishing a website\nusing new packages",
+    "crumbs": [
+      "Home"
+    ]
   }
 ]
