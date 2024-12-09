@@ -13,7 +13,7 @@ website:
   sidebar:
     - title: "Zero to Quarto"
       contents:
-        - home.md
+        - index.md
         - section: "Lessons"
           contents:
           - content/folder-structure.md

@@ -1,7 +1,6 @@
 ---
 title: Virtual Environments
 marp: true
-theme: gaia
 ---
 
 virtual environments

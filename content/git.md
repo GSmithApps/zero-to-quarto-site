@@ -1,7 +1,6 @@
 ---
 title: "Git"
 marp: true
-theme: "gaia"
 ---
 
 Git is for version control.

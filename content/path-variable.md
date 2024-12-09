@@ -1,7 +1,6 @@
 ---
 title: Path Variable
 marp: true
-theme: gaia
 # class: invert
 ---
 
