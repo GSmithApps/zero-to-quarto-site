@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://GSmithApps.github.io/zero-to-quarto-site/CONTRIBUTING.html</loc>
-    <lastmod>2024-12-10T01:15:36.593Z</lastmod>
+    <lastmod>2024-12-10T01:17:33.868Z</lastmod>
   </url>
   <url>
     <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/folder-structure.html</loc>
@@ -23,6 +23,10 @@
   <url>
     <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/markdown.html</loc>
     <lastmod>2024-12-10T01:15:43.230Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/miscellaneous.html</loc>
+    <lastmod>2024-12-10T01:20:04.775Z</lastmod>
   </url>
   <url>
     <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/jupyter.html</loc>
@@ -46,6 +50,6 @@
   </url>
   <url>
     <loc>https://GSmithApps.github.io/zero-to-quarto-site/index.html</loc>
-    <lastmod>2024-12-10T01:15:36.587Z</lastmod>
+    <lastmod>2024-12-10T01:20:22.430Z</lastmod>
   </url>
 </urlset>
