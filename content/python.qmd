@@ -1,9 +1,0 @@
----
-title: Python
----
-
-virtual environments
-
-```python
-print(2+2)
-```

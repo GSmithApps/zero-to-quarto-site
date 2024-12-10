@@ -14,7 +14,7 @@ website:
     - title: "Zero to Quarto"
       contents:
         - index.md
-        - section: "Lessons"
+        - section: "Subjects"
           contents:
           - content/folder-structure.md
           - content/terminal.md
@@ -22,8 +22,9 @@ website:
           - content/vscode.md
           - content/markdown.md
           - content/git.md
-          - content/python.qmd
+          - content/python.md
           - content/virtual-environments.md
+          - content/jupyter.qmd
           - content/quarto.qmd
 
 format:

@@ -8,3 +8,21 @@ Git is for version control.
 It lets you see differences between versions of files.
 
 It also lets you collaborate with people across the world.
+
+# Diffs
+
+![](./images/diff.png)
+
+# Compare Files
+
+![](./images/compare-files.png)
+
+# Git Graph
+
+![](./images/git-graph.png)
+
+# GitHub
+
+# Gotchas
+
+- Each commit is a snapshot of the repository, so big files can accumulate in storage

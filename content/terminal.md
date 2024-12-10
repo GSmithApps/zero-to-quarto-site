@@ -17,6 +17,7 @@ This is about the terminal
 - `..` is the parent directory
 - On mac and linux, your user folder has a shortcut name/alias called `~`.
 - Your user folder is where your terminal opens by default.
+- `$` at the beginning of commands is just the prompt. So if you're reading some docs or a tutorial, and you see something like `$ eval "$(ssh-agent -s)`. Just run `eval "$(ssh-agent -s)"` (leave off the initial `$`).
 
 ---
 
@@ -33,4 +34,11 @@ This may sound boring, but this is actually one of the fundamental things that c
 Environment variables that the computer has stored that can be used by programs or the terminal.
 
 - `PATH` - where the system looks for executables. This is explained more in the next page.
-- 
+
+---
+
+- in windows, can go to terminal from file explorer
+- in windows and mac, can open file exloper/finder from terminal
+- full paths and relative paths
+- always in a certain folder
+
