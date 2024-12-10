@@ -1,0 +1,7 @@
+---
+title: Python in Google Colab
+---
+
+- Can run Python code whenever you want without installing anything
+
+![](./images/colab2.png)

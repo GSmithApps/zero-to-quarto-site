@@ -3,5 +3,4 @@ title: Jupyter
 ---
 
 - Jupyter Notebooks
-
-![](./images/colab2.png)
+- Can do it in your local (in addition to Colab)

@@ -19,12 +19,14 @@ website:
           - content/vscode.md
           - content/markdown.md
           - content/git.md
+          - content/python-in-colab.md
           - content/folder-structure.md
           - content/terminal.md
           - content/path-variable.md
           - content/python.md
           - content/virtual-environments.md
           - content/jupyter.qmd
+          - content/interactive-python.md
           - content/quarto.qmd
         - miscellaneous.md
 
