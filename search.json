@@ -55,7 +55,51 @@
     "href": "content/markdown.html",
     "title": "Markdown",
     "section": "",
-    "text": "File Extension is .md\nFile Extensions in general\nGet the Cheat Sheet\nOpen preview to side\nREADME.md",
+    "text": "File Extension is .md\nFile Extensions in general\nGet the Cheat Sheet\nREADME.md",
+    "crumbs": [
+      "Subjects",
+      "Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#basic-syntax",
+    "href": "content/markdown.html#basic-syntax",
+    "title": "Markdown",
+    "section": "Basic Syntax",
+    "text": "Basic Syntax\nThese are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.\n\nHeading",
+    "crumbs": [
+      "Subjects",
+      "Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#h2",
+    "href": "content/markdown.html#h2",
+    "title": "Markdown",
+    "section": "H2",
+    "text": "H2\n\nH3\n\n\nBold\nbold text\n\n\nItalic\nitalicized text\n\n\nBlockquote\n\nblockquote\n\n\n\nOrdered List\n\nFirst item\nSecond item\nThird item\n\n\n\nUnordered List\n\nFirst item\nSecond item\nThird item\n\n\n\nCode\ncode\n\n\nLink\nMarkdown Guide\n\n\nImage\n\n\n\nalt text",
+    "crumbs": [
+      "Subjects",
+      "Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#extended-syntax",
+    "href": "content/markdown.html#extended-syntax",
+    "title": "Markdown",
+    "section": "Extended Syntax",
+    "text": "Extended Syntax\nThese elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.\n\nTable\n\n\n\nSyntax\nDescription\n\n\n\n\nHeader\nTitle\n\n\nParagraph\nText\n\n\n\n\n\nFenced Code Block\n{\n  \"firstName\": \"John\",\n  \"lastName\": \"Smith\",\n  \"age\": 25\n}\n\n\nFootnote\nHere’s a sentence with a footnote. 1\n\n\nHeading ID\n\n\nMy Great Heading\n\n\nDefinition List\n\nterm\n\ndefinition\n\n\n\n\nStrikethrough\nThe world is flat.\n\n\nTask List\n\nWrite the press release\nUpdate the website\nContact the media\n\n\n\nEmoji\nThat is so funny! :joy:\n(See also Copying and Pasting Emoji)\n\n\nHighlight\nI need to highlight these ==very important words==.\n\n\nSubscript\nH2O\n\n\nSuperscript\nX2",
+    "crumbs": [
+      "Subjects",
+      "Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#footnotes",
+    "href": "content/markdown.html#footnotes",
+    "title": "Markdown",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the footnote.↩︎",
     "crumbs": [
       "Subjects",
       "Markdown"
@@ -118,12 +162,12 @@
   {
     "objectID": "content/vscode.html",
     "href": "content/vscode.html",
-    "title": "VS Code",
+    "title": "Visual Studio Code",
     "section": "",
-    "text": "Stands for “Visual Studio Code”\nDon’t confuse it with “Visual Studio”, which is different\nFree and doesn’t require admin\nCommand Pallette ctrl shift p\nAlways open to a folder",
+    "text": "Usually shortened to “VS Code”\nDon’t confuse it with “Visual Studio”, which is different\nFree and doesn’t require admin\nCommand Pallette ctrl shift p\nAlways open to a folder",
     "crumbs": [
       "Subjects",
-      "VS Code"
+      "Visual Studio Code"
     ]
   },
   {
