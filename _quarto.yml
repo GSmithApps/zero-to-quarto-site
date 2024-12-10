@@ -16,12 +16,12 @@ website:
         - index.md
         - section: "Subjects"
           contents:
-          - content/folder-structure.md
-          - content/terminal.md
-          - content/path-variable.md
           - content/vscode.md
           - content/markdown.md
           - content/git.md
+          - content/folder-structure.md
+          - content/terminal.md
+          - content/path-variable.md
           - content/python.md
           - content/virtual-environments.md
           - content/jupyter.qmd
