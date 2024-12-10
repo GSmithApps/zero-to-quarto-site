@@ -2,18 +2,18 @@
   {
     "objectID": "CONTRIBUTING.html",
     "href": "CONTRIBUTING.html",
-    "title": "",
+    "title": "Current ToDo/Status",
     "section": "",
-    "text": "quarto publish gh-pages https://quarto.org/docs/publishing/github-pages.html#publishing"
+    "text": "quarto publish gh-pages https://quarto.org/docs/publishing/github-pages.html#publishing\n\nCurrent ToDo/Status\n\nI’m moving over the powerpoint, and I just finished git, and I am going to start python."
   },
   {
     "objectID": "content/folder-structure.html",
     "href": "content/folder-structure.html",
     "title": "Folder Structure",
     "section": "",
-    "text": "This is about the folder structure on your computer.\n\n\nFast Facts\n\nMac and linux usually use forward slashes /. Windows uses backslashes \\.\n\nIn many programming languages (including python), the backslash is an escape character, so you have to use two backslashes \\\\ to get one.\n\n\n\nThere are two folders that are of particular importance: your user folder, and your OneDrive folder.\n\n\n\nUser Folder\n\nYour user folder is usually in /Users/&lt;your-name&gt;. So, mine is in /Users/grantsmith.\nYou have free reign in here. You usually don’t need admin to do things here, and you can’t break things as much when operating here.\nWhen you do things above that folder is sometimes when you need admin and when you can break things.\n\n\n\n\nOneDrive Folder\n\nOftentimes IT will suggest that you work in your OneDrive folder or something within it. In this course, we mostly won’t do that.",
+    "text": "This is about the folder structure on your computer.\n\n\nFast Facts\n\nMac and linux usually use forward slashes /. Windows uses backslashes \\.\n\nIn many programming languages (including python), the backslash is an escape character, so you have to use two backslashes \\\\ to get one.\n\n\n\nThere are two folders that are of particular importance: your user folder, and your OneDrive folder.\n\n\n\nUser Folder\n\nYour user folder is usually in /Users/&lt;your-name&gt;. So, mine is in /Users/grantsmith.\nYou have free reign in here. You usually don’t need admin to do things here, and you can’t break things as much when operating here.\nWhen you do things above that folder is sometimes when you need admin and when you can break things.\n\n\n\n\nOneDrive Folder\n\nOftentimes IT will suggest that you work in your OneDrive folder or one of its subfolders. In this course, we won’t do that.\n\nPutting things in OneDrive can be nice because work is saved, but it can be a pain.\nOftentimes when programming, software will be installed in the folder you’re working in. So if you’re working in OneDrive, it will try to upload all that software that you install, which you don’t want.",
     "crumbs": [
-      "Lessons",
+      "Subjects",
       "Folder Structure"
     ]
   },
@@ -22,9 +22,9 @@
     "href": "content/git.html",
     "title": "Git",
     "section": "",
-    "text": "Git is for version control.\nIt lets you see differences between versions of files.\nIt also lets you collaborate with people across the world.",
+    "text": "Git is for version control.\nIt lets you see differences between versions of files.\nIt also lets you collaborate with people across the world.\n\nDiffs\n\n\n\nCompare Files\n\n\n\nGit Graph\n\n\n\nGitHub\n\n\nGotchas\n\nEach commit is a snapshot of the repository, so big files can accumulate in storage",
     "crumbs": [
-      "Lessons",
+      "Subjects",
       "Git"
     ]
   },
@@ -33,21 +33,10 @@
     "href": "content/terminal.html",
     "title": "Terminal",
     "section": "",
-    "text": "This is about the terminal\n\n\nFast Facts/Cheat Sheet\n\ncd - change directory\nls - list files (mac/linux… dir on windows)\npwd - print working directory\n. is the current directory\n.. is the parent directory\nOn mac and linux, your user folder has a shortcut name/alias called ~.\nYour user folder is where your terminal opens by default.\n\n\n\n\nNavigating Around\nWhen you are using the terminal, you are always in a certain location in your computer’s file system. You can move around using the cd command, and you can see where you are using the pwd command.\nThis may sound boring, but this is actually one of the fundamental things that computers do: move around and operate on the file system.\n\n\n\nEnvironment Variables\nEnvironment variables that the computer has stored that can be used by programs or the terminal.\n\nPATH - where the system looks for executables. This is explained more in the next page.",
+    "text": "This is about the terminal\n\n\nFast Facts/Cheat Sheet\n\ncd - change directory\nls - list files (mac/linux… dir on windows)\npwd - print working directory\n. is the current directory\n.. is the parent directory\nOn mac and linux, your user folder has a shortcut name/alias called ~.\nYour user folder is where your terminal opens by default.\n$ at the beginning of commands is just the prompt. So if you’re reading some docs or a tutorial, and you see something like $ eval \"$(ssh-agent -s). Just run eval \"$(ssh-agent -s)\" (leave off the initial $).\n\n\n\n\nNavigating Around\nWhen you are using the terminal, you are always in a certain location in your computer’s file system. You can move around using the cd command, and you can see where you are using the pwd command.\nThis may sound boring, but this is actually one of the fundamental things that computers do: move around and operate on the file system.\n\n\n\nEnvironment Variables\nEnvironment variables that the computer has stored that can be used by programs or the terminal.\n\nPATH - where the system looks for executables. This is explained more in the next page.\n\n\n\nin windows, can go to terminal from file explorer\nin windows and mac, can open file exloper/finder from terminal\nfull paths and relative paths\nalways in a certain folder",
     "crumbs": [
-      "Lessons",
+      "Subjects",
       "Terminal"
-    ]
-  },
-  {
-    "objectID": "content/python.html",
-    "href": "content/python.html",
-    "title": "Python",
-    "section": "",
-    "text": "virtual environments\nprint(2+2)",
-    "crumbs": [
-      "Lessons",
-      "Python"
     ]
   },
   {
@@ -55,10 +44,43 @@
     "href": "content/virtual-environments.html",
     "title": "Virtual Environments",
     "section": "",
-    "text": "virtual environments\nmodify the PATH variable.\nsharing code with edittable installs",
+    "text": "virtual environments\nmodify the PATH variable.\nsharing code with edittable installs\n\n\nWhat They Are, and What They Are Not\n\nWhat They Are\n\nThe same as a development environment, or conda environment\n\nWhat They Are Not\n\nHaving the word “virtual” may make it sound like a virtual environment is in the cloud, but it is not. It is on your local machine.",
     "crumbs": [
-      "Lessons",
+      "Subjects",
       "Virtual Environments"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html",
+    "href": "content/markdown.html",
+    "title": "Markdown",
+    "section": "",
+    "text": "File Extension is .md\nFile Extensions in general\nGet the Cheat Sheet\nOpen preview to side\nREADME.md",
+    "crumbs": [
+      "Subjects",
+      "Markdown"
+    ]
+  },
+  {
+    "objectID": "content/jupyter.html",
+    "href": "content/jupyter.html",
+    "title": "Jupyter",
+    "section": "",
+    "text": "Jupyter Notebooks",
+    "crumbs": [
+      "Subjects",
+      "Jupyter"
+    ]
+  },
+  {
+    "objectID": "content/python.html",
+    "href": "content/python.html",
+    "title": "Python",
+    "section": "",
+    "text": "Get started easily",
+    "crumbs": [
+      "Subjects",
+      "Python"
     ]
   },
   {
@@ -66,9 +88,9 @@
     "href": "content/quarto.html",
     "title": "Quarto",
     "section": "",
-    "text": "Here we’ll learn about Quarto.\nWe’ll learn about how to publish jupyter notebooks as markdown files.\nQuarto has an advantage because it is easy to version control.",
+    "text": "Here we’ll learn about Quarto.\nWe’ll learn about how to publish jupyter notebooks as markdown files.\nQuarto has an advantage because it is easy to version control.\n\n\nCode\nprint(2+2)\n\n\n4",
     "crumbs": [
-      "Lessons",
+      "Subjects",
       "Quarto"
     ]
   },
@@ -77,10 +99,21 @@
     "href": "content/path-variable.html",
     "title": "Path Variable",
     "section": "",
-    "text": "The PATH is an important environment variable. It tells your computer where to look for programs to run. - For example, when you type python in the terminal, the computer looks in the directories listed in the PATH variable to find the python program.",
+    "text": "The PATH is an important environment variable. It tells your computer where to look for programs to run.\n\nFor example, when you type python in the terminal, the computer looks in the directories listed in the PATH variable to find the python program.",
     "crumbs": [
-      "Lessons",
+      "Subjects",
       "Path Variable"
+    ]
+  },
+  {
+    "objectID": "content/vscode.html",
+    "href": "content/vscode.html",
+    "title": "VS Code",
+    "section": "",
+    "text": "Stands for “Visual Studio Code”\nDon’t confuse it with “Visual Studio”, which is different\nFree and doesn’t require admin\nCommand Pallette ctrl shift p\nAlways open to a folder",
+    "crumbs": [
+      "Subjects",
+      "VS Code"
     ]
   },
   {
@@ -88,7 +121,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "In this tour, we’ll go over over\n\nFolder Structure\nTerminal\n\n\n\nAbout\nThis site is made for a course that shows people how to use their computer a little better to go from not knowing much programming all the way to using Python and Quarto.\nIt’s designed for engineers, scientists, or researchers who might benefit from some of these things, for example, if they’ve felt some pain points from things such as spreadsheets or not being able to publish their work.\nThe GitHub repo that makes this site is here↗\nWe want these scientists and researchers to get the benefits of using code – chief among which are\n\nversion control and working with the open source community\npublishing a website\nusing new packages",
+    "text": "This site is the home for a course that takes people from Zero to Quarto.\nThe goal of the course is to teach engineers, researchers, or anyone else how to use their computer a little better – in particular, to help them move away from Word and Excel into the land of Python, Jupyter, Markdown, Git, and Quarto.\nWe want these scientists and researchers to get the benefits of using code – chief among which are\n\nVersion control and working more smoothly with colleagues and the open source community\nPublishing a website to share findings\nUsing new packages and tools\n\n\nThe GitHub repo that makes this site is here↗",
     "crumbs": [
       "Home"
     ]
