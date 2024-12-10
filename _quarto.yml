@@ -26,6 +26,7 @@ website:
           - content/virtual-environments.md
           - content/jupyter.qmd
           - content/quarto.qmd
+        - miscellaneous.md
 
 format:
   html:

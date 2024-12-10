@@ -17,7 +17,3 @@ using code -- chief among which are
 - Version control and working more smoothly with colleagues and the open source community
 - Publishing a website to share findings
 - Using new packages and tools
-
----
-
-The GitHub repo that makes this site is [here↗](https://github.com/GSmithApps/zero-to-quarto-site)
