@@ -18,6 +18,9 @@ website:
           contents:
           - content/z01.vscode.md
           - content/z02.markdown.md
+          - content/z02.z01.file-extensions.md
+          - content/z02.z02.binary-vs-plain-text.md
+          - content/z02.z03.data-file-formats.md
           - content/z03.git.md
           - content/z03.z01.github.md
           - content/z04.python-in-colab.md
