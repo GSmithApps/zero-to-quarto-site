@@ -7,36 +7,47 @@
     "text": "quarto publish gh-pages https://quarto.org/docs/publishing/github-pages.html#publishing"
   },
   {
-    "objectID": "content/z12.quarto.html",
-    "href": "content/z12.quarto.html",
-    "title": "Quarto",
+    "objectID": "content/z02.z02.binary-vs-plain-text.html",
+    "href": "content/z02.z02.binary-vs-plain-text.html",
+    "title": "Binary Vs. Plain Text",
     "section": "",
-    "text": "Here we’ll learn about Quarto.\nWe’ll learn about how to publish jupyter notebooks as markdown files.\nQuarto builds on interactive python and makes interactive markdown as well. It flips to where the prose is the main content, and the code is secondary, rather than in python files, code is primary, and prose is secondary.\nIt also builds and renders things.\n\n\nCode\nprint(2+2)\n\n\n4",
+    "text": "Can open plain text files in a text editor ( and manually modify them), but you can’t with binary files\nBinary is more compressed\nCan version control plain text files\n\n\n\nExamples\n\nplain text\n\nmarkdown\npython files\ntxt file\nCSV files\njson files\n\nbinary\n\nexcel\nword\nparquet",
     "crumbs": [
       "Subjects",
-      "Quarto"
+      "Binary Vs. Plain Text"
     ]
   },
   {
-    "objectID": "content/z01.vscode.html",
-    "href": "content/z01.vscode.html",
-    "title": "Visual Studio Code",
+    "objectID": "content/z03.git.html",
+    "href": "content/z03.git.html",
+    "title": "Git",
     "section": "",
-    "text": "Usually shortened to “VS Code”\nDon’t confuse it with “Visual Studio”, which is different\nFree and doesn’t require admin\nCommand Pallette ctrl shift p\nAlways open to a folder",
+    "text": "Git is for version control.\nIt lets you see differences between versions of files.\nIt also lets you collaborate with people across the world.\n\nDiffs\n\n\n\nCompare Files\n\n\n\nGit Graph\n\n\n\nGotchas\n\nEach commit is a snapshot of the repository, so big files can accumulate in storage",
     "crumbs": [
       "Subjects",
-      "Visual Studio Code"
+      "Git"
     ]
   },
   {
-    "objectID": "content/z05.folder-structure.html",
-    "href": "content/z05.folder-structure.html",
-    "title": "Folder Structure",
+    "objectID": "content/z04.python-in-colab.html",
+    "href": "content/z04.python-in-colab.html",
+    "title": "Python in Google Colab",
     "section": "",
-    "text": "This is about the folder structure on your computer.\n\n\nFast Facts\n\nMac and linux usually use forward slashes /. Windows uses backslashes \\.\n\nIn many programming languages (including python), the backslash is an escape character, so you have to use two backslashes \\\\ to get one.\n\n\n\nThere are two folders that are of particular importance: your user folder, and your OneDrive folder.\n\n\n\nUser Folder\n\nYour user folder is usually in /Users/&lt;your-name&gt;. So, mine is in /Users/grantsmith.\nYou have free reign in here. You usually don’t need admin to do things here, and you can’t break things as much when operating here.\nWhen you do things above that folder is sometimes when you need admin and when you can break things.\n\n\n\n\nOneDrive Folder\n\nOftentimes IT will suggest that you work in your OneDrive folder or one of its subfolders. In this course, we won’t do that.\n\nPutting things in OneDrive can be nice because work is saved, but it can be a pain.\nOftentimes when programming, software will be installed in the folder you’re working in. So if you’re working in OneDrive, it will try to upload all that software that you install, which you don’t want.",
+    "text": "Can run Python code whenever you want without installing anything",
     "crumbs": [
       "Subjects",
-      "Folder Structure"
+      "Python in Google Colab"
+    ]
+  },
+  {
+    "objectID": "content/z02.z01.file-extensions.html",
+    "href": "content/z02.z01.file-extensions.html",
+    "title": "File Extensions",
+    "section": "",
+    "text": "Enable them in your file explorer\nCan switch them back and forth",
+    "crumbs": [
+      "Subjects",
+      "File Extensions"
     ]
   },
   {
@@ -73,11 +84,32 @@
     ]
   },
   {
+    "objectID": "content/z06.terminal.html",
+    "href": "content/z06.terminal.html",
+    "title": "Terminal",
+    "section": "",
+    "text": "This is about the terminal\n\n\nFast Facts/Cheat Sheet\n\ncd - change directory\nls - list files (mac/linux… dir on windows)\npwd - print working directory\n. is the current directory\n.. is the parent directory\nOn mac and linux, your user folder has a shortcut name/alias called ~.\nYour user folder is where your terminal opens by default.\n$ at the beginning of commands is just the prompt. So if you’re reading some docs or a tutorial, and you see something like $ eval \"$(ssh-agent -s). Just run eval \"$(ssh-agent -s)\" (leave off the initial $).\n\n\n\n\nNavigating Around\nWhen you are using the terminal, you are always in a certain location in your computer’s file system. You can move around using the cd command, and you can see where you are using the pwd command.\nThis may sound boring, but this is actually one of the fundamental things that computers do: move around and operate on the file system.\n\n\n\nEnvironment Variables\nEnvironment variables that the computer has stored that can be used by programs or the terminal.\n\nPATH - where the system looks for executables. This is explained more in the next page.\n\n\n\nin windows, can go to terminal from file explorer\nin windows and mac, can open file exloper/finder from terminal\nfull paths and relative paths\nalways in a certain folder",
+    "crumbs": [
+      "Subjects",
+      "Terminal"
+    ]
+  },
+  {
+    "objectID": "miscellaneous.html",
+    "href": "miscellaneous.html",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "The GitHub repo that makes this site is here↗",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
     "objectID": "content/z02.markdown.html",
     "href": "content/z02.markdown.html",
     "title": "Markdown",
     "section": "",
-    "text": "File Extension is .md\nFile Extensions in general\nGet the Cheat Sheet\nREADME.md",
+    "text": "Write pretty text that can be used to make websites (and really anything) using plain text\n\nBecause it’s plain text, it’s easy to version control, and you can open it in any application. It is very simple and universal\n\nIt can be rendered to look extra pretty, but is pretty enough even without rendering.",
     "crumbs": [
       "Subjects",
       "Markdown"
@@ -128,24 +160,14 @@
     ]
   },
   {
-    "objectID": "miscellaneous.html",
-    "href": "miscellaneous.html",
-    "title": "Miscellaneous",
+    "objectID": "content/z02.z03.data-file-formats.html",
+    "href": "content/z02.z03.data-file-formats.html",
+    "title": "Data File Formats",
     "section": "",
-    "text": "The GitHub repo that makes this site is here↗",
-    "crumbs": [
-      "Miscellaneous"
-    ]
-  },
-  {
-    "objectID": "content/z06.terminal.html",
-    "href": "content/z06.terminal.html",
-    "title": "Terminal",
-    "section": "",
-    "text": "This is about the terminal\n\n\nFast Facts/Cheat Sheet\n\ncd - change directory\nls - list files (mac/linux… dir on windows)\npwd - print working directory\n. is the current directory\n.. is the parent directory\nOn mac and linux, your user folder has a shortcut name/alias called ~.\nYour user folder is where your terminal opens by default.\n$ at the beginning of commands is just the prompt. So if you’re reading some docs or a tutorial, and you see something like $ eval \"$(ssh-agent -s). Just run eval \"$(ssh-agent -s)\" (leave off the initial $).\n\n\n\n\nNavigating Around\nWhen you are using the terminal, you are always in a certain location in your computer’s file system. You can move around using the cd command, and you can see where you are using the pwd command.\nThis may sound boring, but this is actually one of the fundamental things that computers do: move around and operate on the file system.\n\n\n\nEnvironment Variables\nEnvironment variables that the computer has stored that can be used by programs or the terminal.\n\nPATH - where the system looks for executables. This is explained more in the next page.\n\n\n\nin windows, can go to terminal from file explorer\nin windows and mac, can open file exloper/finder from terminal\nfull paths and relative paths\nalways in a certain folder",
+    "text": "JSON\nCSV",
     "crumbs": [
       "Subjects",
-      "Terminal"
+      "Data File Formats"
     ]
   },
   {
@@ -182,25 +204,36 @@
     ]
   },
   {
-    "objectID": "content/z04.python-in-colab.html",
-    "href": "content/z04.python-in-colab.html",
-    "title": "Python in Google Colab",
+    "objectID": "content/z05.folder-structure.html",
+    "href": "content/z05.folder-structure.html",
+    "title": "Folder Structure",
     "section": "",
-    "text": "Can run Python code whenever you want without installing anything",
+    "text": "This is about the folder structure on your computer.\n\n\nFast Facts\n\nMac and linux usually use forward slashes /. Windows uses backslashes \\.\n\nIn many programming languages (including python), the backslash is an escape character, so you have to use two backslashes \\\\ to get one.\n\n\n\nThere are two folders that are of particular importance: your user folder, and your OneDrive folder.\n\n\n\nUser Folder\n\nYour user folder is usually in /Users/&lt;your-name&gt;. So, mine is in /Users/grantsmith.\nYou have free reign in here. You usually don’t need admin to do things here, and you can’t break things as much when operating here.\nWhen you do things above that folder is sometimes when you need admin and when you can break things.\n\n\n\n\nOneDrive Folder\n\nOftentimes IT will suggest that you work in your OneDrive folder or one of its subfolders. In this course, we won’t do that.\n\nPutting things in OneDrive can be nice because work is saved, but it can be a pain.\nOftentimes when programming, software will be installed in the folder you’re working in. So if you’re working in OneDrive, it will try to upload all that software that you install, which you don’t want.",
     "crumbs": [
       "Subjects",
-      "Python in Google Colab"
+      "Folder Structure"
     ]
   },
   {
-    "objectID": "content/z03.git.html",
-    "href": "content/z03.git.html",
-    "title": "Git",
+    "objectID": "content/z01.vscode.html",
+    "href": "content/z01.vscode.html",
+    "title": "Visual Studio Code",
     "section": "",
-    "text": "Git is for version control.\nIt lets you see differences between versions of files.\nIt also lets you collaborate with people across the world.\n\nDiffs\n\n\n\nCompare Files\n\n\n\nGit Graph\n\n\n\nGotchas\n\nEach commit is a snapshot of the repository, so big files can accumulate in storage",
+    "text": "Quick Hitters\n\nUsually shortened to “VS Code”\nDon’t confuse it with “Visual Studio”, which is different\nFree and doesn’t require admin\n\n\n\n\nHow to Use\n\nCommand Pallette ctrl shift p\nAlways open to a folder\nFile tree on the left\nTerminal at the bottom",
     "crumbs": [
       "Subjects",
-      "Git"
+      "Visual Studio Code"
+    ]
+  },
+  {
+    "objectID": "content/z12.quarto.html",
+    "href": "content/z12.quarto.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "Here we’ll learn about Quarto.\nWe’ll learn about how to publish jupyter notebooks as markdown files.\nQuarto builds on interactive python and makes interactive markdown as well. It flips to where the prose is the main content, and the code is secondary, rather than in python files, code is primary, and prose is secondary.\nIt also builds and renders things.\n\n\nCode\nprint(2+2)\n\n\n4",
+    "crumbs": [
+      "Subjects",
+      "Quarto"
     ]
   },
   {
