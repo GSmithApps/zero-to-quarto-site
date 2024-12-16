@@ -16,24 +16,25 @@ website:
         - index.md
         - section: "Subjects"
           contents:
-          - content/01.vscode.md
-          - content/02.markdown.md
-          - content/03.git.md
-          - content/04.python-in-colab.md
-          - content/05.folder-structure.md
-          - content/06.terminal.md
-          - content/07.path-variable.md
-          - content/08.python.md
-          - content/09.virtual-environments.md
-          - content/10.jupyter.md
-          - content/11.interactive-python.md
-          - content/12.quarto.qmd
+          - content/z01.vscode.md
+          - content/z02.markdown.md
+          - content/z03.git.md
+          - content/z03.z01.github.md
+          - content/z04.python-in-colab.md
+          - content/z05.folder-structure.md
+          - content/z06.terminal.md
+          - content/z07.path-variable.md
+          - content/z08.python.md
+          - content/z09.virtual-environments.md
+          - content/z10.jupyter.md
+          - content/z11.interactive-python.md
+          - content/z12.quarto.qmd
         - miscellaneous.md
 
 format:
   html:
     theme: 
-      light: cosmo
+      light: flatly
       dark: darkly
     css: styles.css
     toc: true
