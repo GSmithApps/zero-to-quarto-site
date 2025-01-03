@@ -17,6 +17,7 @@ groups of people we see as a fit for this:
 ---
 
 We want to help them do the following
+
 - Move away from Word and Excel into Python, Jupyter,
   Markdown, Git, and Quarto.
 - Streamline their workflows
