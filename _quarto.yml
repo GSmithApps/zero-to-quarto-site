@@ -1,5 +1,9 @@
 project:
   type: website
+  render:
+  - README.md
+  - "*.qmd"
+  - "*.md"
 
 website:
   # title: "Zero to Quarto"
@@ -13,8 +17,11 @@ website:
   sidebar:
     - title: "Zero to Quarto"
       contents:
-        - index.md
-        - section: "Subjects"
+        - README.md
+        - section: "Hour 1: A Preview"
+          contents:
+          - content/z00.previews.md
+        - section: "Further content"
           contents:
           - content/z01.vscode.md
           - content/z02.markdown.md
@@ -32,7 +39,6 @@ website:
           - content/z10.jupyter.md
           - content/z11.interactive-python.md
           - content/z12.quarto.qmd
-        - miscellaneous.md
 
 format:
   html:
