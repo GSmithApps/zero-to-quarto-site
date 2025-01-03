@@ -39,7 +39,9 @@ website:
           - content/z10.jupyter.md
           - content/z11.interactive-python.md
           - content/z12.quarto.qmd
-
+        - section: "Building a Package"
+          contents:
+          - content/z13.building-a-package.md
 format:
   html:
     theme: 
