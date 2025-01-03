@@ -1,64 +1,13 @@
 [
   {
-    "objectID": "CONTRIBUTING.html",
-    "href": "CONTRIBUTING.html",
-    "title": "",
+    "objectID": "content/z13.building-a-package.html",
+    "href": "content/z13.building-a-package.html",
+    "title": "Building a package",
     "section": "",
-    "text": "quarto publish gh-pages https://quarto.org/docs/publishing/github-pages.html#publishing"
-  },
-  {
-    "objectID": "content/z02.z02.binary-vs-plain-text.html",
-    "href": "content/z02.z02.binary-vs-plain-text.html",
-    "title": "Binary Vs. Plain Text",
-    "section": "",
-    "text": "Can open plain text files in a text editor ( and manually modify them), but you can’t with binary files\nBinary is more compressed\nCan version control plain text files\n\n\n\nExamples\n\nplain text\n\nmarkdown\npython files\ntxt file\nCSV files\njson files\n\nbinary\n\nexcel\nword\nparquet",
+    "text": "use flit\nwhat’s a wheel\npyproject.toml\npush to PyPi\nforking a repository and making a PR and contributing to open source",
     "crumbs": [
-      "Subjects",
-      "Binary Vs. Plain Text"
-    ]
-  },
-  {
-    "objectID": "content/z03.git.html",
-    "href": "content/z03.git.html",
-    "title": "Git",
-    "section": "",
-    "text": "Git is for version control.\nIt lets you see differences between versions of files.\nIt also lets you collaborate with people across the world.\n\nDiffs\n\n\n\nCompare Files\n\n\n\nGit Graph\n\n\n\nGotchas\n\nEach commit is a snapshot of the repository, so big files can accumulate in storage",
-    "crumbs": [
-      "Subjects",
-      "Git"
-    ]
-  },
-  {
-    "objectID": "content/z04.python-in-colab.html",
-    "href": "content/z04.python-in-colab.html",
-    "title": "Python in Google Colab",
-    "section": "",
-    "text": "Can run Python code whenever you want without installing anything",
-    "crumbs": [
-      "Subjects",
-      "Python in Google Colab"
-    ]
-  },
-  {
-    "objectID": "content/z02.z01.file-extensions.html",
-    "href": "content/z02.z01.file-extensions.html",
-    "title": "File Extensions",
-    "section": "",
-    "text": "Enable them in your file explorer\nCan switch them back and forth",
-    "crumbs": [
-      "Subjects",
-      "File Extensions"
-    ]
-  },
-  {
-    "objectID": "content/z09.virtual-environments.html",
-    "href": "content/z09.virtual-environments.html",
-    "title": "Virtual Environments",
-    "section": "",
-    "text": "virtual environments\nmodify the PATH variable.\nsharing code with edittable installs\n\n\nWhat They Are, and What They Are Not\n\nWhat They Are\n\nThe same as a development environment, or conda environment\n\nWhat They Are Not\n\nHaving the word “virtual” may make it sound like a virtual environment is in the cloud, but it is not. It is on your local machine.",
-    "crumbs": [
-      "Subjects",
-      "Virtual Environments"
+      "Building a Package",
+      "Building a package"
     ]
   },
   {
@@ -68,19 +17,19 @@
     "section": "",
     "text": "Jupyter Notebooks\nCan do it in your local (in addition to Colab)",
     "crumbs": [
-      "Subjects",
+      "Further content",
       "Jupyter"
     ]
   },
   {
-    "objectID": "content/z03.z01.github.html",
-    "href": "content/z03.z01.github.html",
-    "title": "GitHub",
+    "objectID": "content/z08.python.html",
+    "href": "content/z08.python.html",
+    "title": "Python",
     "section": "",
-    "text": "It’s like Google Drive: you can store your code files there, and it’s in the cloud.",
+    "text": "Get started easily",
     "crumbs": [
-      "Subjects",
-      "GitHub"
+      "Further content",
+      "Python"
     ]
   },
   {
@@ -90,18 +39,41 @@
     "section": "",
     "text": "This is about the terminal\n\n\nFast Facts/Cheat Sheet\n\ncd - change directory\nls - list files (mac/linux… dir on windows)\npwd - print working directory\n. is the current directory\n.. is the parent directory\nOn mac and linux, your user folder has a shortcut name/alias called ~.\nYour user folder is where your terminal opens by default.\n$ at the beginning of commands is just the prompt. So if you’re reading some docs or a tutorial, and you see something like $ eval \"$(ssh-agent -s). Just run eval \"$(ssh-agent -s)\" (leave off the initial $).\n\n\n\n\nNavigating Around\nWhen you are using the terminal, you are always in a certain location in your computer’s file system. You can move around using the cd command, and you can see where you are using the pwd command.\nThis may sound boring, but this is actually one of the fundamental things that computers do: move around and operate on the file system.\n\n\n\nEnvironment Variables\nEnvironment variables that the computer has stored that can be used by programs or the terminal.\n\nPATH - where the system looks for executables. This is explained more in the next page.\n\n\n\nin windows, can go to terminal from file explorer\nin windows and mac, can open file exloper/finder from terminal\nfull paths and relative paths\nalways in a certain folder",
     "crumbs": [
-      "Subjects",
+      "Further content",
       "Terminal"
     ]
   },
   {
-    "objectID": "miscellaneous.html",
-    "href": "miscellaneous.html",
-    "title": "Miscellaneous",
+    "objectID": "content/z04.python-in-colab.html",
+    "href": "content/z04.python-in-colab.html",
+    "title": "Python in Google Colab",
     "section": "",
-    "text": "The GitHub repo that makes this site is here↗",
+    "text": "Can run Python code whenever you want without installing anything",
     "crumbs": [
-      "Miscellaneous"
+      "Further content",
+      "Python in Google Colab"
+    ]
+  },
+  {
+    "objectID": "content/z03.git.html",
+    "href": "content/z03.git.html",
+    "title": "Git",
+    "section": "",
+    "text": "Git is for version control.\nIt lets you see differences between versions of files.\nIt also lets you collaborate with people across the world.\n\nDiffs\n\n\n\nCompare Files\n\n\n\nGit Graph\n\n\n\nGotchas\n\nEach commit is a snapshot of the repository, so big files can accumulate in storage",
+    "crumbs": [
+      "Further content",
+      "Git"
+    ]
+  },
+  {
+    "objectID": "content/z02.z02.binary-vs-plain-text.html",
+    "href": "content/z02.z02.binary-vs-plain-text.html",
+    "title": "Binary Vs. Plain Text",
+    "section": "",
+    "text": "Can open plain text files in a text editor ( and manually modify them), but you can’t with binary files\nBinary is more compressed\nCan version control plain text files\n\n\n\nExamples\n\nplain text\n\nmarkdown\npython files\ntxt file\nCSV files\njson files\n\nbinary\n\nexcel\nword\nparquet",
+    "crumbs": [
+      "Further content",
+      "Binary Vs. Plain Text"
     ]
   },
   {
@@ -111,7 +83,7 @@
     "section": "",
     "text": "Write pretty text that can be used to make websites (and really anything) using plain text\n\nBecause it’s plain text, it’s easy to version control, and you can open it in any application. It is very simple and universal\n\nIt can be rendered to look extra pretty, but is pretty enough even without rendering.",
     "crumbs": [
-      "Subjects",
+      "Further content",
       "Markdown"
     ]
   },
@@ -122,7 +94,7 @@
     "section": "Basic Syntax",
     "text": "Basic Syntax\nThese are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.\n\nHeading",
     "crumbs": [
-      "Subjects",
+      "Further content",
       "Markdown"
     ]
   },
@@ -133,7 +105,7 @@
     "section": "H2",
     "text": "H2\n\nH3\n\n\nBold\nbold text\n\n\nItalic\nitalicized text\n\n\nBlockquote\n\nblockquote\n\n\n\nOrdered List\n\nFirst item\nSecond item\nThird item\n\n\n\nUnordered List\n\nFirst item\nSecond item\nThird item\n\n\n\nCode\ncode\n\n\nLink\nMarkdown Guide\n\n\nImage\n\n\n\nalt text",
     "crumbs": [
-      "Subjects",
+      "Further content",
       "Markdown"
     ]
   },
@@ -144,7 +116,7 @@
     "section": "Extended Syntax",
     "text": "Extended Syntax\nThese elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.\n\nTable\n\n\n\nSyntax\nDescription\n\n\n\n\nHeader\nTitle\n\n\nParagraph\nText\n\n\n\n\n\nFenced Code Block\n{\n  \"firstName\": \"John\",\n  \"lastName\": \"Smith\",\n  \"age\": 25\n}\n\n\nFootnote\nHere’s a sentence with a footnote. 1\n\n\nHeading ID\n\n\nMy Great Heading\n\n\nDefinition List\n\nterm\n\ndefinition\n\n\n\n\nStrikethrough\nThe world is flat.\n\n\nTask List\n\nWrite the press release\nUpdate the website\nContact the media\n\n\n\nEmoji\nThat is so funny! :joy:\n(See also Copying and Pasting Emoji)\n\n\nHighlight\nI need to highlight these ==very important words==.\n\n\nSubscript\nH2O\n\n\nSuperscript\nX2",
     "crumbs": [
-      "Subjects",
+      "Further content",
       "Markdown"
     ]
   },
@@ -155,74 +127,19 @@
     "section": "Footnotes",
     "text": "Footnotes\n\n\nThis is the footnote.↩︎",
     "crumbs": [
-      "Subjects",
+      "Further content",
       "Markdown"
     ]
   },
   {
-    "objectID": "content/z02.z03.data-file-formats.html",
-    "href": "content/z02.z03.data-file-formats.html",
-    "title": "Data File Formats",
+    "objectID": "content/z00.previews.html",
+    "href": "content/z00.previews.html",
+    "title": "Previews",
     "section": "",
-    "text": "JSON\nCSV",
+    "text": "Previews\n\nThis site and the GitHub Repo: GitHub repo\n\nGitHub\n\nSocial network mixed with google drive\nREADME\n\n\nPlaygrounds\n\nMarkdown Playground and dotmd editor\nDiff Checker\nPython\n\nGoogle Colab\nPython Shell\nOnline Python",
     "crumbs": [
-      "Subjects",
-      "Data File Formats"
-    ]
-  },
-  {
-    "objectID": "content/z11.interactive-python.html",
-    "href": "content/z11.interactive-python.html",
-    "title": "Interactive Python",
-    "section": "",
-    "text": "Just put # %% to make a cell.\nhttps://code.visualstudio.com/docs/python/jupyter-support-py\nThis has an advantage over Jupyter Notebooks because it is easy to version control.",
-    "crumbs": [
-      "Subjects",
-      "Interactive Python"
-    ]
-  },
-  {
-    "objectID": "content/z08.python.html",
-    "href": "content/z08.python.html",
-    "title": "Python",
-    "section": "",
-    "text": "Get started easily",
-    "crumbs": [
-      "Subjects",
-      "Python"
-    ]
-  },
-  {
-    "objectID": "content/z07.path-variable.html",
-    "href": "content/z07.path-variable.html",
-    "title": "Path Variable",
-    "section": "",
-    "text": "The PATH is an important environment variable. It tells your computer where to look for programs to run.\n\nFor example, when you type python in the terminal, the computer looks in the directories listed in the PATH variable to find the python program.",
-    "crumbs": [
-      "Subjects",
-      "Path Variable"
-    ]
-  },
-  {
-    "objectID": "content/z05.folder-structure.html",
-    "href": "content/z05.folder-structure.html",
-    "title": "Folder Structure",
-    "section": "",
-    "text": "This is about the folder structure on your computer.\n\n\nFast Facts\n\nMac and linux usually use forward slashes /. Windows uses backslashes \\.\n\nIn many programming languages (including python), the backslash is an escape character, so you have to use two backslashes \\\\ to get one.\n\n\n\nThere are two folders that are of particular importance: your user folder, and your OneDrive folder.\n\n\n\nUser Folder\n\nYour user folder is usually in /Users/&lt;your-name&gt;. So, mine is in /Users/grantsmith.\nYou have free reign in here. You usually don’t need admin to do things here, and you can’t break things as much when operating here.\nWhen you do things above that folder is sometimes when you need admin and when you can break things.\n\n\n\n\nOneDrive Folder\n\nOftentimes IT will suggest that you work in your OneDrive folder or one of its subfolders. In this course, we won’t do that.\n\nPutting things in OneDrive can be nice because work is saved, but it can be a pain.\nOftentimes when programming, software will be installed in the folder you’re working in. So if you’re working in OneDrive, it will try to upload all that software that you install, which you don’t want.",
-    "crumbs": [
-      "Subjects",
-      "Folder Structure"
-    ]
-  },
-  {
-    "objectID": "content/z01.vscode.html",
-    "href": "content/z01.vscode.html",
-    "title": "Visual Studio Code",
-    "section": "",
-    "text": "Quick Hitters\n\nUsually shortened to “VS Code”\nDon’t confuse it with “Visual Studio”, which is different\nFree and doesn’t require admin\n\n\n\n\nHow to Use\n\nCommand Pallette ctrl shift p\nAlways open to a folder\nFile tree on the left\nTerminal at the bottom",
-    "crumbs": [
-      "Subjects",
-      "Visual Studio Code"
+      "Hour 1: A Preview",
+      "Previews"
     ]
   },
   {
@@ -232,18 +149,141 @@
     "section": "",
     "text": "Here we’ll learn about Quarto.\nWe’ll learn about how to publish jupyter notebooks as markdown files.\nQuarto builds on interactive python and makes interactive markdown as well. It flips to where the prose is the main content, and the code is secondary, rather than in python files, code is primary, and prose is secondary.\nIt also builds and renders things.\n\n\nCode\nprint(2+2)\n\n\n4",
     "crumbs": [
-      "Subjects",
+      "Further content",
       "Quarto"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
+    "objectID": "README.html",
+    "href": "README.html",
+    "title": "Zero To Quarto",
     "section": "",
-    "text": "This site is the home for a course that takes people from Zero to Quarto.\nThe goal of the course is to teach engineers, researchers, or anyone else how to use their computer a little better – in particular, to help them move away from Word and Excel into the land of Python, Jupyter, Markdown, Git, and Quarto.\nWe want these scientists and researchers to get the benefits of using code – chief among which are\n\nVersion control and working more smoothly with colleagues and the open source community\nPublishing a website to share findings\nUsing new packages and tools",
+    "text": "This site is the home for a training that takes people from Zero to Quarto.\nThe goal of the training is to teach engineers, researchers, or anyone else how to use their computer a little better – in particular, to help them move away from Word and Excel into the land of Python, Jupyter, Markdown, Git, and Quarto.\nWe want these scientists and researchers to get the benefits of using code – chief among which are:\n\nVersion control and working more smoothly with colleagues and the open source community\nPublishing a website to share findings\nUsing new packages and tools\n\nIts site is on GitHub Pages here↗, and The GitHub repo that makes the site is here↗.",
     "crumbs": [
-      "Home"
+      "Zero To Quarto"
+    ]
+  },
+  {
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "",
+    "section": "",
+    "text": "Install Quarto\n\nCan use Homebrew if you want with brew install quarto\n\nInstall Python if you don’t already have it"
+  },
+  {
+    "objectID": "CONTRIBUTING.html#setting-up-for-local-development",
+    "href": "CONTRIBUTING.html#setting-up-for-local-development",
+    "title": "",
+    "section": "",
+    "text": "Install Quarto\n\nCan use Homebrew if you want with brew install quarto\n\nInstall Python if you don’t already have it"
+  },
+  {
+    "objectID": "CONTRIBUTING.html#rendering-locally",
+    "href": "CONTRIBUTING.html#rendering-locally",
+    "title": "",
+    "section": "Rendering Locally",
+    "text": "Rendering Locally\n\nRun quarto preview"
+  },
+  {
+    "objectID": "CONTRIBUTING.html#publishing",
+    "href": "CONTRIBUTING.html#publishing",
+    "title": "",
+    "section": "Publishing",
+    "text": "Publishing\nWhen done developing and are ready to publish, run the following 1.\n\nquarto publish gh-pages"
+  },
+  {
+    "objectID": "CONTRIBUTING.html#footnotes",
+    "href": "CONTRIBUTING.html#footnotes",
+    "title": "",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nQuarto docs↩︎"
+  },
+  {
+    "objectID": "content/z01.vscode.html",
+    "href": "content/z01.vscode.html",
+    "title": "Visual Studio Code",
+    "section": "",
+    "text": "Quick Hitters\n\nUsually shortened to “VS Code”\nDon’t confuse it with “Visual Studio”, which is different\nFree and doesn’t require admin\n\n\n\n\nHow to Use\n\nCommand Pallette ctrl shift p\nAlways open to a folder\nFile tree on the left\nTerminal at the bottom",
+    "crumbs": [
+      "Further content",
+      "Visual Studio Code"
+    ]
+  },
+  {
+    "objectID": "content/z02.z01.file-extensions.html",
+    "href": "content/z02.z01.file-extensions.html",
+    "title": "File Extensions",
+    "section": "",
+    "text": "Enable them in your file explorer\nCan switch them back and forth",
+    "crumbs": [
+      "Further content",
+      "File Extensions"
+    ]
+  },
+  {
+    "objectID": "content/z02.z03.data-file-formats.html",
+    "href": "content/z02.z03.data-file-formats.html",
+    "title": "Data File Formats",
+    "section": "",
+    "text": "JSON\nCSV",
+    "crumbs": [
+      "Further content",
+      "Data File Formats"
+    ]
+  },
+  {
+    "objectID": "content/z03.z01.github.html",
+    "href": "content/z03.z01.github.html",
+    "title": "GitHub",
+    "section": "",
+    "text": "It’s like Google Drive: you can store your code files there, and it’s in the cloud.",
+    "crumbs": [
+      "Further content",
+      "GitHub"
+    ]
+  },
+  {
+    "objectID": "content/z05.folder-structure.html",
+    "href": "content/z05.folder-structure.html",
+    "title": "Folder Structure",
+    "section": "",
+    "text": "This is about the folder structure on your computer.\n\n\nFast Facts\n\nMac and linux usually use forward slashes /. Windows uses backslashes \\.\n\nIn many programming languages (including python), the backslash is an escape character, so you have to use two backslashes \\\\ to get one.\n\n\n\nThere are two folders that are of particular importance: your user folder, and your OneDrive folder.\n\n\n\nUser Folder\n\nYour user folder is usually in /Users/&lt;your-name&gt;. So, mine is in /Users/grantsmith.\nYou have free reign in here. You usually don’t need admin to do things here, and you can’t break things as much when operating here.\nWhen you do things above that folder is sometimes when you need admin and when you can break things.\n\n\n\n\nOneDrive Folder\n\nOftentimes IT will suggest that you work in your OneDrive folder or one of its subfolders. In this course, we won’t do that.\n\nPutting things in OneDrive can be nice because work is saved, but it can be a pain.\nOftentimes when programming, software will be installed in the folder you’re working in. So if you’re working in OneDrive, it will try to upload all that software that you install, which you don’t want.",
+    "crumbs": [
+      "Further content",
+      "Folder Structure"
+    ]
+  },
+  {
+    "objectID": "content/z07.path-variable.html",
+    "href": "content/z07.path-variable.html",
+    "title": "Path Variable",
+    "section": "",
+    "text": "The PATH is an important environment variable. It tells your computer where to look for programs to run.\n\nFor example, when you type python in the terminal, the computer looks in the directories listed in the PATH variable to find the python program.",
+    "crumbs": [
+      "Further content",
+      "Path Variable"
+    ]
+  },
+  {
+    "objectID": "content/z09.virtual-environments.html",
+    "href": "content/z09.virtual-environments.html",
+    "title": "Virtual Environments",
+    "section": "",
+    "text": "virtual environments\nmodify the PATH variable.\nsharing code with edittable installs\n\n\nWhat They Are, and What They Are Not\n\nWhat They Are\n\nThe same as a development environment, or conda environment\n\nWhat They Are Not\n\nHaving the word “virtual” may make it sound like a virtual environment is in the cloud, but it is not. It is on your local machine.",
+    "crumbs": [
+      "Further content",
+      "Virtual Environments"
+    ]
+  },
+  {
+    "objectID": "content/z11.interactive-python.html",
+    "href": "content/z11.interactive-python.html",
+    "title": "Interactive Python",
+    "section": "",
+    "text": "Just put # %% to make a cell.\nhttps://code.visualstudio.com/docs/python/jupyter-support-py\nThis has an advantage over Jupyter Notebooks because it is easy to version control.",
+    "crumbs": [
+      "Further content",
+      "Interactive Python"
     ]
   }
 ]
