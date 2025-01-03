@@ -1,4 +1,12 @@
+## Setting up for local development
 
-`quarto publish gh-pages` https://quarto.org/docs/publishing/github-pages.html#publishing
+- `brew install quarto`
+- may also need to install python if installing quarto doesn't do it for you
+- run `quarto preview` to render locally
 
-**todo**: put stuff in here about what to install and how to build the site... for example, python and quarto are needed, and the command is probably something like `quarto publish`
+When done developing and are ready to publish, run the
+following [^1].
+
+`quarto publish gh-pages`
+
+[^1]: [Quarto docs](https://quarto.org/docs/publishing/github-pages.html#publishing)
