@@ -18,5 +18,5 @@ using code -- chief among which are:
 - Publishing a website to share findings
 - Using new packages and tools
 
-Its site is on GitHub Pages [here↗](https://gsmithapps.github.io/zero-to-quarto-site/),
+The training's website is on GitHub Pages [here↗](https://gsmithapps.github.io/zero-to-quarto-site/),
 and The GitHub repo that makes the site is [here↗](https://github.com/GSmithApps/zero-to-quarto-site).
