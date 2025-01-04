@@ -27,7 +27,7 @@ website:
           - content/z00.z07.python-in-google-colab.md
           - content/z00.z08.python-in-a-file.md
           - content/z00.z09.python-in-a-terminal.md
-        - section: "Further content"
+        - section: "Middle"
           contents:
           - content/z01.vscode.md
           - content/z02.markdown.md
@@ -38,10 +38,14 @@ website:
           - content/z05.folder-structure.md
           - content/z06.terminal.md
           - content/z07.path-variable.md
+        - section: "Hour X: Running Python Locally"
+          contents:
           - content/z08.python.md
           - content/z09.virtual-environments.md
           - content/z10.jupyter.md
           - content/z11.interactive-python.md
+        - section: "Hour X: Quarto"
+          contents:
           - content/z12.quarto.qmd
         - section: "Building a Package"
           contents:
