@@ -21,6 +21,12 @@ website:
         - section: "Hour 1: A Preview"
           contents:
           - content/z00.previews.md
+          - content/z00.z05.contributing-to-this-site.md
+        - section: "Hour 2: Running Python Online"
+          contents:
+          - content/z00.z07.python-in-google-colab.md
+          - content/z00.z08.python-in-a-file.md
+          - content/z00.z09.python-in-a-terminal.md
         - section: "Further content"
           contents:
           - content/z01.vscode.md
@@ -29,8 +35,6 @@ website:
           - content/z02.z02.binary-vs-plain-text.md
           - content/z02.z03.data-file-formats.md
           - content/z03.git.md
-          - content/z03.z01.github.md
-          - content/z04.python-in-colab.md
           - content/z05.folder-structure.md
           - content/z06.terminal.md
           - content/z07.path-variable.md

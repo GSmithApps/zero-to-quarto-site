@@ -16,3 +16,10 @@ following [^1].
 1. `quarto publish gh-pages`
 
 [^1]: [Quarto docs](https://quarto.org/docs/publishing/github-pages.html#publishing)
+
+## Branching Structure
+
+The `main` branch is what we use for our work.
+The `gh-pages` branch we don't touch manually -- it
+gets written to when we run the publish command mentioned
+above.
