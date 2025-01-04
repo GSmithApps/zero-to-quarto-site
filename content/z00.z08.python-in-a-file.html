@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Zero To Quarto</title>
+<title>Python in a File</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b2511bcbb01c2159fd96a78deb42ffd9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-b2511bcbb01c2159fd96a78deb42ffd9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -70,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -82,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./README.html">Zero To Quarto</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z00.z07.python-in-google-colab.html">Hour 2: Running Python Online</a></li><li class="breadcrumb-item"><a href="../content/z00.z08.python-in-a-file.html">Python in a File</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -97,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Zero to Quarto</a> 
+      <a href="../">Zero to Quarto</a> 
         <div class="sidebar-tools-main">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
@@ -112,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./README.html" class="sidebar-item-text sidebar-link active">
+  <a href="../README.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Zero To Quarto</span></a>
   </div>
 </li>
@@ -127,13 +161,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z00.playgrounds.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z00.playgrounds.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Playgrounds</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z00.z05.contributing-to-this-site.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z00.z05.contributing-to-this-site.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">GitHub and Contributing to this site</span></a>
   </div>
 </li>
@@ -150,19 +184,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z00.z07.python-in-google-colab.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z00.z07.python-in-google-colab.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Python in Google Colab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z00.z08.python-in-a-file.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z00.z08.python-in-a-file.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Python in a File</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z00.z09.python-in-a-terminal.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z00.z09.python-in-a-terminal.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Python in a Terminal</span></a>
   </div>
 </li>
@@ -179,55 +213,55 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z01.vscode.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z01.vscode.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Visual Studio Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z02.markdown.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z02.markdown.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Markdown</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z02.z01.file-extensions.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z02.z01.file-extensions.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">File Extensions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z02.z02.binary-vs-plain-text.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z02.z02.binary-vs-plain-text.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Binary Vs. Plain Text</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z02.z03.data-file-formats.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z02.z03.data-file-formats.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data File Formats</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z03.git.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z03.git.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Git</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z05.folder-structure.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z05.folder-structure.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Folder Structure</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z06.terminal.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z06.terminal.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Terminal</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z07.path-variable.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z07.path-variable.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Path Variable</span></a>
   </div>
 </li>
@@ -244,25 +278,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z08.python.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z08.python.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Python Files</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z09.virtual-environments.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z09.virtual-environments.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Virtual Environments</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z10.jupyter.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z10.jupyter.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Jupyter</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z11.interactive-python.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z11.interactive-python.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Interactive Python</span></a>
   </div>
 </li>
@@ -279,7 +313,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z12.quarto.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z12.quarto.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quarto</span></a>
   </div>
 </li>
@@ -296,7 +330,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/z13.building-a-package.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z13.building-a-package.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Building a package</span></a>
   </div>
 </li>
@@ -307,15 +341,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#can-run-code-in-the-file" id="toc-can-run-code-in-the-file" class="nav-link active" data-scroll-target="#can-run-code-in-the-file">Can run code in the file</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z00.z07.python-in-google-colab.html">Hour 2: Running Python Online</a></li><li class="breadcrumb-item"><a href="../content/z00.z08.python-in-a-file.html">Python in a File</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Zero To Quarto</h1>
+<h1 class="title">Python in a File</h1>
 </div>
 
 
@@ -332,31 +372,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This site is the home for a training that takes people from Zero to Quarto.</p>
-<p>The goal of the training is to teach engineers, researchers, or anyone else how to use their computer write code a little better. There are two main groups of people we see as a fit for this:</p>
-<ul>
-<li>Engineers who work in industry and don’t code much or at all.</li>
-<li>Researchers who do some coding or computation, but feel rusty on their coding or know that their coding workflows could use some improvement.</li>
-</ul>
+<p>Can run Python code whenever you want without installing anything by going to <a href="https://www.online-python.com">Online Python</a>.</p>
 <hr>
-<p>We want to help them do the following</p>
-<ul>
-<li>Move away from Word and Excel into Python, Jupyter, Markdown, Git, and Quarto.</li>
-<li>Streamline their workflows</li>
-<li>Render and publish their research in a website,</li>
-<li>Use modern collaboration and version control systems such as Git</li>
-</ul>
-<p>We want these scientists and researchers to get the benefits of using code – chief among which are:</p>
-<ul>
-<li>Version control and working more smoothly with colleagues and the open source community</li>
-<li>Publishing a website to share findings</li>
-<li>Using new packages and tools</li>
-<li>Making things easier and more pleasant</li>
-</ul>
-<hr>
-<p>The training’s website is on GitHub Pages <a href="https://gsmithapps.github.io/zero-to-quarto-site/">here↗</a>, and The GitHub repo that makes the site is <a href="https://github.com/GSmithApps/zero-to-quarto-site">here↗</a>.</p>
+<section id="can-run-code-in-the-file" class="level1">
+<h1>Can run code in the file</h1>
+<p>Try typing</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="dv">2</span><span class="op">+</span><span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>And press the run button.</p>
+<p>It should display the output below.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

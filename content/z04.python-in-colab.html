@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Python in Google Colab</title>
+<title>z04.python-in-colab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z01.vscode.html">Further content</a></li><li class="breadcrumb-item"><a href="../content/z04.python-in-colab.html">Python in Google Colab</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z01.vscode.html">Further content</a></li><li class="breadcrumb-item"><a href="../content/z04.python-in-colab.html">z04.python-in-colab.html</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -129,6 +129,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../content/z00.previews.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Previews</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/z00.z05.contributing-to-this-site.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contributing to this site</span></a>
   </div>
 </li>
       </ul>
@@ -180,14 +186,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/z03.z01.github.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">GitHub</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../content/z04.python-in-colab.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Python in Google Colab</span></a>
+ <span class="menu-text">z04.python-in-colab.html</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -266,31 +266,11 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z01.vscode.html">Further content</a></li><li class="breadcrumb-item"><a href="../content/z04.python-in-colab.html">Python in Google Colab</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Python in Google Colab</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z01.vscode.html">Further content</a></li><li class="breadcrumb-item"><a href="../content/z04.python-in-colab.html">z04.python-in-colab.html</a></li></ol></nav></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<ul>
-<li>Can run Python code whenever you want without installing anything</li>
-</ul>
-<p><img src="./images/colab2.png" class="img-fluid"></p>
 
 
 
@@ -529,7 +509,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/GSmithApps\.github\.io\/zero-to-quarto-site\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
