@@ -20,7 +20,7 @@ website:
         - README.md
         - section: "Hour 1: A Preview"
           contents:
-          - content/z00.previews.md
+          - content/z00.playgrounds.md
           - content/z00.z05.contributing-to-this-site.md
         - section: "Hour 2: Running Python Online"
           contents:
