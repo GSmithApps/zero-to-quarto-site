@@ -20,7 +20,8 @@ website:
         - README.md
         - section: "Hour 1: A Preview"
           contents:
-          - content/z00.playgrounds.md
+          - content/z00.z03.previews.md
+          - content/z00.z04.playgrounds.md
           - content/z00.z05.contributing-to-this-site.md
         - section: "Hour 2: Running Python Online"
           contents:
@@ -31,13 +32,10 @@ website:
           contents:
           - content/z01.vscode.md
           - content/z02.markdown.md
-          - content/z02.z01.file-extensions.md
-          - content/z02.z02.binary-vs-plain-text.md
-          - content/z02.z03.data-file-formats.md
-          - content/z03.git.md
-          - content/z05.folder-structure.md
+          - content/z02.z01.files-and-folders.md
           - content/z06.terminal.md
           - content/z07.path-variable.md
+          - content/z07.z05.git.md
         - section: "Hour X: Running Python Locally"
           contents:
           - content/z08.python.md
