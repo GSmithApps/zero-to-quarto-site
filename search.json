@@ -33,124 +33,102 @@
     ]
   },
   {
-    "objectID": "content/z06.terminal.html",
-    "href": "content/z06.terminal.html",
-    "title": "Terminal",
+    "objectID": "content/z07.path-variable.html",
+    "href": "content/z07.path-variable.html",
+    "title": "Path Variable",
     "section": "",
-    "text": "This is about the terminal\n\n\nFast Facts/Cheat Sheet\n\ncd - change directory\nls - list files (mac/linux… dir on windows)\npwd - print working directory\n. is the current directory\n.. is the parent directory\nOn mac and linux, your user folder has a shortcut name/alias called ~.\nYour user folder is where your terminal opens by default.\n$ at the beginning of commands is just the prompt. So if you’re reading some docs or a tutorial, and you see something like $ eval \"$(ssh-agent -s). Just run eval \"$(ssh-agent -s)\" (leave off the initial $).\n\n\n\n\nNavigating Around\nWhen you are using the terminal, you are always in a certain location in your computer’s file system. You can move around using the cd command, and you can see where you are using the pwd command.\nThis may sound boring, but this is actually one of the fundamental things that computers do: move around and operate on the file system.\n\n\n\nEnvironment Variables\nEnvironment variables that the computer has stored that can be used by programs or the terminal.\n\nPATH - where the system looks for executables. This is explained more in the next page.\n\n\n\nin windows, can go to terminal from file explorer\nin windows and mac, can open file exloper/finder from terminal\nfull paths and relative paths\nalways in a certain folder",
+    "text": "The PATH is an important environment variable. It tells your computer where to look for programs to run.\n\nFor example, when you type python in the terminal, the computer looks in the directories listed in the PATH variable to find the python program.",
     "crumbs": [
       "Middle",
-      "Terminal"
+      "Path Variable"
     ]
   },
   {
-    "objectID": "content/z03.git.html",
-    "href": "content/z03.git.html",
-    "title": "Git",
+    "objectID": "content/z02.z01.files-and-folders.html",
+    "href": "content/z02.z01.files-and-folders.html",
+    "title": "Files and Folders",
     "section": "",
-    "text": "Git is for version control.\nIt lets you see differences between versions of files.\nIt also lets you collaborate with people across the world.\n\nDiffs\n\n\n\nCompare Files\n\n\n\nGit Graph\n\n\n\nGotchas\n\nEach commit is a snapshot of the repository, so big files can accumulate in storage",
+    "text": "Enable them in your file explorer\nCan switch them back and forth",
     "crumbs": [
       "Middle",
-      "Git"
+      "Files and Folders"
     ]
   },
   {
-    "objectID": "content/z02.z02.binary-vs-plain-text.html",
-    "href": "content/z02.z02.binary-vs-plain-text.html",
-    "title": "Binary Vs. Plain Text",
+    "objectID": "content/z02.z01.files-and-folders.html#examples",
+    "href": "content/z02.z01.files-and-folders.html#examples",
+    "title": "Files and Folders",
+    "section": "Examples",
+    "text": "Examples\n\nplain text\n\nmarkdown\npython files\ntxt file\nCSV files\njson files\n\nbinary\n\nexcel\nword\nparquet",
+    "crumbs": [
+      "Middle",
+      "Files and Folders"
+    ]
+  },
+  {
+    "objectID": "content/z02.z01.files-and-folders.html#fast-facts",
+    "href": "content/z02.z01.files-and-folders.html#fast-facts",
+    "title": "Files and Folders",
+    "section": "Fast Facts",
+    "text": "Fast Facts\n\nMac and linux usually use forward slashes /. Windows uses backslashes \\.\n\nIn many programming languages (including python), the backslash is an escape character, so you have to use two backslashes \\\\ to get one.",
+    "crumbs": [
+      "Middle",
+      "Files and Folders"
+    ]
+  },
+  {
+    "objectID": "content/z02.z01.files-and-folders.html#user-folder-and-onedrive-folder",
+    "href": "content/z02.z01.files-and-folders.html#user-folder-and-onedrive-folder",
+    "title": "Files and Folders",
+    "section": "User Folder and OneDrive Folder",
+    "text": "User Folder and OneDrive Folder\nThere are two folders that are of particular importance: your user folder, and your OneDrive folder.\n\nUser Folder\n\nYour user folder is usually in /Users/&lt;your-name&gt;. So, mine is in /Users/grantsmith.\nYou have free reign in here. You usually don’t need admin to do things here, and you can’t break things as much when operating here.\nWhen you do things above that folder is sometimes when you need admin and when you can break things.\n\n\n\nOneDrive Folder\n\nOftentimes IT will suggest that you work in your OneDrive folder or one of its subfolders. In this course, we won’t do that.\n\nPutting things in OneDrive can be nice because work is saved, but it can be a pain.\nOftentimes when programming, software will be installed in the folder you’re working in. So if you’re working in OneDrive, it will try to upload all that software that you install, which you don’t want.",
+    "crumbs": [
+      "Middle",
+      "Files and Folders"
+    ]
+  },
+  {
+    "objectID": "content/z01.vscode.html",
+    "href": "content/z01.vscode.html",
+    "title": "Visual Studio Code",
     "section": "",
-    "text": "Can open plain text files in a text editor ( and manually modify them), but you can’t with binary files\nBinary is more compressed\nCan version control plain text files\n\n\n\nExamples\n\nplain text\n\nmarkdown\npython files\ntxt file\nCSV files\njson files\n\nbinary\n\nexcel\nword\nparquet",
+    "text": "Quick Hitters\n\nUsually shortened to “VS Code”\nDon’t confuse it with “Visual Studio”, which is different\nFree and doesn’t require admin\n\n\n\n\nHow to Use\n\nCommand Pallette ctrl shift p\nAlways open to a folder\nFile tree on the left\nTerminal at the bottom",
     "crumbs": [
       "Middle",
-      "Binary Vs. Plain Text"
+      "Visual Studio Code"
     ]
   },
   {
-    "objectID": "content/z02.markdown.html",
-    "href": "content/z02.markdown.html",
-    "title": "Markdown",
+    "objectID": "content/z00.z08.python-in-a-file.html",
+    "href": "content/z00.z08.python-in-a-file.html",
+    "title": "Python in a File",
     "section": "",
-    "text": "Write pretty text that can be used to make websites (and really anything) using plain text\n\nBecause it’s plain text, it’s easy to version control, and you can open it in any application. It is very simple and universal\n\nIt can be rendered to look extra pretty, but is pretty enough even without rendering.",
-    "crumbs": [
-      "Middle",
-      "Markdown"
-    ]
-  },
-  {
-    "objectID": "content/z02.markdown.html#basic-syntax",
-    "href": "content/z02.markdown.html#basic-syntax",
-    "title": "Markdown",
-    "section": "Basic Syntax",
-    "text": "Basic Syntax\nThese are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.\n\nHeading",
-    "crumbs": [
-      "Middle",
-      "Markdown"
-    ]
-  },
-  {
-    "objectID": "content/z02.markdown.html#h2",
-    "href": "content/z02.markdown.html#h2",
-    "title": "Markdown",
-    "section": "H2",
-    "text": "H2\n\nH3\n\n\nBold\nbold text\n\n\nItalic\nitalicized text\n\n\nBlockquote\n\nblockquote\n\n\n\nOrdered List\n\nFirst item\nSecond item\nThird item\n\n\n\nUnordered List\n\nFirst item\nSecond item\nThird item\n\n\n\nCode\ncode\n\n\nLink\nMarkdown Guide\n\n\nImage\n\n\n\nalt text",
-    "crumbs": [
-      "Middle",
-      "Markdown"
-    ]
-  },
-  {
-    "objectID": "content/z02.markdown.html#extended-syntax",
-    "href": "content/z02.markdown.html#extended-syntax",
-    "title": "Markdown",
-    "section": "Extended Syntax",
-    "text": "Extended Syntax\nThese elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.\n\nTable\n\n\n\nSyntax\nDescription\n\n\n\n\nHeader\nTitle\n\n\nParagraph\nText\n\n\n\n\n\nFenced Code Block\n{\n  \"firstName\": \"John\",\n  \"lastName\": \"Smith\",\n  \"age\": 25\n}\n\n\nFootnote\nHere’s a sentence with a footnote. 1\n\n\nHeading ID\n\n\nMy Great Heading\n\n\nDefinition List\n\nterm\n\ndefinition\n\n\n\n\nStrikethrough\nThe world is flat.\n\n\nTask List\n\nWrite the press release\nUpdate the website\nContact the media\n\n\n\nEmoji\nThat is so funny! :joy:\n(See also Copying and Pasting Emoji)\n\n\nHighlight\nI need to highlight these ==very important words==.\n\n\nSubscript\nH2O\n\n\nSuperscript\nX2",
-    "crumbs": [
-      "Middle",
-      "Markdown"
-    ]
-  },
-  {
-    "objectID": "content/z02.markdown.html#footnotes",
-    "href": "content/z02.markdown.html#footnotes",
-    "title": "Markdown",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nThis is the footnote.↩︎",
-    "crumbs": [
-      "Middle",
-      "Markdown"
-    ]
-  },
-  {
-    "objectID": "content/z00.z09.python-in-a-terminal.html",
-    "href": "content/z00.z09.python-in-a-terminal.html",
-    "title": "Python in a Terminal",
-    "section": "",
-    "text": "Can run Python code in a terminal whenever you want without installing anything by going to Python’s online shell.\n\n\nCan type code and hit enter\nTry typing\n2+2\nAnd hit enter.\nIt should display the output below.",
+    "text": "Can run Python code whenever you want without installing anything by going to Online Python.\n\n\nCan run code in the file\nTry typing\nprint(2+2)\nAnd press the run button.\nIt should display the output below.",
     "crumbs": [
       "Hour 2: Running Python Online",
-      "Python in a Terminal"
+      "Python in a File"
     ]
   },
   {
-    "objectID": "content/z00.z07.python-in-google-colab.html",
-    "href": "content/z00.z07.python-in-google-colab.html",
-    "title": "Python in Google Colab",
+    "objectID": "content/z00.z05.contributing-to-this-site.html",
+    "href": "content/z00.z05.contributing-to-this-site.html",
+    "title": "GitHub and Contributing to this site",
     "section": "",
-    "text": "Can run Python code whenever you want without installing anything by going to Google Colab.\n\n\n\nCan run code in the cells\nTry typing\n2+2\nAnd hit shift+enter.\nIt should display the output below.\n\n\n\nCan Put in Text Cells\n\nCan write text in that document\nIt supports Markdown",
-    "crumbs": [
-      "Hour 2: Running Python Online",
-      "Python in Google Colab"
-    ]
-  },
-  {
-    "objectID": "content/z00.playgrounds.html",
-    "href": "content/z00.playgrounds.html",
-    "title": "Playgrounds",
-    "section": "",
-    "text": "Here are some playgrounds as a preview for things to come:\n\nMarkdown Playground and dotmd editor\nDiff Checker\nPython\n\nGoogle Colab\nPython Shell\nOnline Python\n\n==I really want to put a terminal playground in here==\nCan I also get a Git playground?\n\nCan I get playgrounds for like everything??",
+    "text": "GitHub\n\nSocial network mixed with google drive\nREADME\n\n\n\n\nThis Site’s GitHub Repo\n\nThis site and the GitHub Repo: GitHub repo\nMake a GitHub account\nFork this repository\nMake edits\n\nMarkdown and .md\n\nSend a pull request",
     "crumbs": [
       "Hour 1: A Preview",
-      "Playgrounds"
+      "GitHub and Contributing to this site"
+    ]
+  },
+  {
+    "objectID": "content/z00.z03.previews.html",
+    "href": "content/z00.z03.previews.html",
+    "title": "Previews",
+    "section": "",
+    "text": "Here are some previews of things to come:\n\n\nVS Code\n\n\n\n\nGit Graphs\n\n\n\n\nComparing Files\n\n\n\n\nTracking Changes\n\n\n\n\nMarkdown",
+    "crumbs": [
+      "Hour 1: A Preview",
+      "Previews"
     ]
   },
   {
@@ -217,80 +195,113 @@
     "text": "Footnotes\n\n\nQuarto docs↩︎"
   },
   {
-    "objectID": "content/z00.z05.contributing-to-this-site.html",
-    "href": "content/z00.z05.contributing-to-this-site.html",
-    "title": "GitHub and Contributing to this site",
+    "objectID": "content/z00.z04.playgrounds.html",
+    "href": "content/z00.z04.playgrounds.html",
+    "title": "Playgrounds",
     "section": "",
-    "text": "GitHub\n\nSocial network mixed with google drive\nREADME\n\n\n\n\nThis Site’s GitHub Repo\n\nThis site and the GitHub Repo: GitHub repo\nMake a GitHub account\nFork this repository\nMake edits\n\nMarkdown and .md\n\nSend a pull request",
+    "text": "Here are some playgrounds as a preview for things to come:\n\nMarkdown Playground and dotmd editor\nDiff Checker\nPython\n\nGoogle Colab\nPython Shell\nOnline Python\n\nVSCode\n\nif you have github, try a GitHub Codespace (and click “use this template” under “blank”).\n\n==I really want to put a terminal playground in here==\nCan I also get a Git playground?\n\nCan I get playgrounds for like everything??\n\n\n\n\nGit and Git Graphs\nGoogle search “Git graph”, and scroll through the images\n\n\n\nalt",
     "crumbs": [
       "Hour 1: A Preview",
-      "GitHub and Contributing to this site"
+      "Playgrounds"
     ]
   },
   {
-    "objectID": "content/z00.z08.python-in-a-file.html",
-    "href": "content/z00.z08.python-in-a-file.html",
-    "title": "Python in a File",
+    "objectID": "content/z00.z07.python-in-google-colab.html",
+    "href": "content/z00.z07.python-in-google-colab.html",
+    "title": "Python in Google Colab",
     "section": "",
-    "text": "Can run Python code whenever you want without installing anything by going to Online Python.\n\n\nCan run code in the file\nTry typing\nprint(2+2)\nAnd press the run button.\nIt should display the output below.",
+    "text": "Can run Python code whenever you want without installing anything by going to Google Colab.\n\n\n\nCan run code in the cells\nTry typing\n2+2\nAnd hit shift+enter.\nIt should display the output below.\n\n\n\nCan Put in Text Cells\n\nCan write text in that document\nIt supports Markdown",
     "crumbs": [
       "Hour 2: Running Python Online",
-      "Python in a File"
+      "Python in Google Colab"
     ]
   },
   {
-    "objectID": "content/z01.vscode.html",
-    "href": "content/z01.vscode.html",
-    "title": "Visual Studio Code",
+    "objectID": "content/z00.z09.python-in-a-terminal.html",
+    "href": "content/z00.z09.python-in-a-terminal.html",
+    "title": "Python in a Terminal",
     "section": "",
-    "text": "Quick Hitters\n\nUsually shortened to “VS Code”\nDon’t confuse it with “Visual Studio”, which is different\nFree and doesn’t require admin\n\n\n\n\nHow to Use\n\nCommand Pallette ctrl shift p\nAlways open to a folder\nFile tree on the left\nTerminal at the bottom",
+    "text": "Can run Python code in a terminal whenever you want without installing anything by going to Python’s online shell.\n\n\nCan type code and hit enter\nTry typing\n2+2\nAnd hit enter.\nIt should display the output below.",
     "crumbs": [
-      "Middle",
-      "Visual Studio Code"
+      "Hour 2: Running Python Online",
+      "Python in a Terminal"
     ]
   },
   {
-    "objectID": "content/z02.z01.file-extensions.html",
-    "href": "content/z02.z01.file-extensions.html",
-    "title": "File Extensions",
+    "objectID": "content/z02.markdown.html",
+    "href": "content/z02.markdown.html",
+    "title": "Markdown",
     "section": "",
-    "text": "Enable them in your file explorer\nCan switch them back and forth",
+    "text": "Write pretty text that can be used to make websites (and really anything) using plain text\n\nBecause it’s plain text, it’s easy to version control, and you can open it in any application. It is very simple and universal\n\nIt can be rendered to look extra pretty, but is pretty enough even without rendering.",
     "crumbs": [
       "Middle",
-      "File Extensions"
+      "Markdown"
     ]
   },
   {
-    "objectID": "content/z02.z03.data-file-formats.html",
-    "href": "content/z02.z03.data-file-formats.html",
-    "title": "Data File Formats",
-    "section": "",
-    "text": "JSON\nCSV",
+    "objectID": "content/z02.markdown.html#basic-syntax",
+    "href": "content/z02.markdown.html#basic-syntax",
+    "title": "Markdown",
+    "section": "Basic Syntax",
+    "text": "Basic Syntax\nThese are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.\n\nHeading",
     "crumbs": [
       "Middle",
-      "Data File Formats"
+      "Markdown"
     ]
   },
   {
-    "objectID": "content/z05.folder-structure.html",
-    "href": "content/z05.folder-structure.html",
-    "title": "Folder Structure",
-    "section": "",
-    "text": "This is about the folder structure on your computer.\n\n\nFast Facts\n\nMac and linux usually use forward slashes /. Windows uses backslashes \\.\n\nIn many programming languages (including python), the backslash is an escape character, so you have to use two backslashes \\\\ to get one.\n\n\n\nThere are two folders that are of particular importance: your user folder, and your OneDrive folder.\n\n\n\nUser Folder\n\nYour user folder is usually in /Users/&lt;your-name&gt;. So, mine is in /Users/grantsmith.\nYou have free reign in here. You usually don’t need admin to do things here, and you can’t break things as much when operating here.\nWhen you do things above that folder is sometimes when you need admin and when you can break things.\n\n\n\n\nOneDrive Folder\n\nOftentimes IT will suggest that you work in your OneDrive folder or one of its subfolders. In this course, we won’t do that.\n\nPutting things in OneDrive can be nice because work is saved, but it can be a pain.\nOftentimes when programming, software will be installed in the folder you’re working in. So if you’re working in OneDrive, it will try to upload all that software that you install, which you don’t want.",
+    "objectID": "content/z02.markdown.html#h2",
+    "href": "content/z02.markdown.html#h2",
+    "title": "Markdown",
+    "section": "H2",
+    "text": "H2\n\nH3\n\n\nBold\nbold text\n\n\nItalic\nitalicized text\n\n\nBlockquote\n\nblockquote\n\n\n\nOrdered List\n\nFirst item\nSecond item\nThird item\n\n\n\nUnordered List\n\nFirst item\nSecond item\nThird item\n\n\n\nCode\ncode\n\n\nLink\nMarkdown Guide\n\n\nImage\n\n\n\nalt text",
     "crumbs": [
       "Middle",
-      "Folder Structure"
+      "Markdown"
     ]
   },
   {
-    "objectID": "content/z07.path-variable.html",
-    "href": "content/z07.path-variable.html",
-    "title": "Path Variable",
-    "section": "",
-    "text": "The PATH is an important environment variable. It tells your computer where to look for programs to run.\n\nFor example, when you type python in the terminal, the computer looks in the directories listed in the PATH variable to find the python program.",
+    "objectID": "content/z02.markdown.html#extended-syntax",
+    "href": "content/z02.markdown.html#extended-syntax",
+    "title": "Markdown",
+    "section": "Extended Syntax",
+    "text": "Extended Syntax\nThese elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.\n\nTable\n\n\n\nSyntax\nDescription\n\n\n\n\nHeader\nTitle\n\n\nParagraph\nText\n\n\n\n\n\nFenced Code Block\n{\n  \"firstName\": \"John\",\n  \"lastName\": \"Smith\",\n  \"age\": 25\n}\n\n\nFootnote\nHere’s a sentence with a footnote. 1\n\n\nHeading ID\n\n\nMy Great Heading\n\n\nDefinition List\n\nterm\n\ndefinition\n\n\n\n\nStrikethrough\nThe world is flat.\n\n\nTask List\n\nWrite the press release\nUpdate the website\nContact the media\n\n\n\nEmoji\nThat is so funny! :joy:\n(See also Copying and Pasting Emoji)\n\n\nHighlight\nI need to highlight these ==very important words==.\n\n\nSubscript\nH2O\n\n\nSuperscript\nX2",
     "crumbs": [
       "Middle",
-      "Path Variable"
+      "Markdown"
+    ]
+  },
+  {
+    "objectID": "content/z02.markdown.html#footnotes",
+    "href": "content/z02.markdown.html#footnotes",
+    "title": "Markdown",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the footnote.↩︎",
+    "crumbs": [
+      "Middle",
+      "Markdown"
+    ]
+  },
+  {
+    "objectID": "content/z06.terminal.html",
+    "href": "content/z06.terminal.html",
+    "title": "Terminal",
+    "section": "",
+    "text": "This is about the terminal\n\n\nFast Facts/Cheat Sheet\n\ncd - change directory\nls - list files (mac/linux… dir on windows)\npwd - print working directory\n. is the current directory\n.. is the parent directory\nOn mac and linux, your user folder has a shortcut name/alias called ~.\nYour user folder is where your terminal opens by default.\n$ at the beginning of commands is just the prompt. So if you’re reading some docs or a tutorial, and you see something like $ eval \"$(ssh-agent -s). Just run eval \"$(ssh-agent -s)\" (leave off the initial $).\n\n\n\n\nNavigating Around\nWhen you are using the terminal, you are always in a certain location in your computer’s file system. You can move around using the cd command, and you can see where you are using the pwd command.\nThis may sound boring, but this is actually one of the fundamental things that computers do: move around and operate on the file system.\n\n\n\nEnvironment Variables\nEnvironment variables that the computer has stored that can be used by programs or the terminal.\n\nPATH - where the system looks for executables. This is explained more in the next page.\n\n\n\nin windows, can go to terminal from file explorer\nin windows and mac, can open file exloper/finder from terminal\nfull paths and relative paths\nalways in a certain folder",
+    "crumbs": [
+      "Middle",
+      "Terminal"
+    ]
+  },
+  {
+    "objectID": "content/z07.z05.git.html",
+    "href": "content/z07.z05.git.html",
+    "title": "Git",
+    "section": "",
+    "text": "Git is for version control.\nIt lets you see differences between versions of files.\nIt also lets you collaborate with people across the world.\n\nDiffs\n\n\n\nCompare Files\n\n\n\nGit Graph\n\n\n\nGotchas\n\nEach commit is a snapshot of the repository, so big files can accumulate in storage",
+    "crumbs": [
+      "Middle",
+      "Git"
     ]
   },
   {

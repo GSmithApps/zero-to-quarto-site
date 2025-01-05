@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Python in Google Colab</title>
+<title>Files and Folders</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -116,7 +82,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z00.z07.python-in-google-colab.html">Hour 2: Running Python Online</a></li><li class="breadcrumb-item"><a href="../content/z00.z07.python-in-google-colab.html">Python in Google Colab</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z01.vscode.html">Middle</a></li><li class="breadcrumb-item"><a href="../content/z02.z01.files-and-folders.html">Files and Folders</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -190,7 +156,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/z00.z07.python-in-google-colab.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/z00.z07.python-in-google-colab.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Python in Google Colab</span></a>
   </div>
 </li>
@@ -231,7 +197,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/z02.z01.files-and-folders.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z02.z01.files-and-folders.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Files and Folders</span></a>
   </div>
 </li>
@@ -334,17 +300,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#can-run-code-in-the-cells" id="toc-can-run-code-in-the-cells" class="nav-link active" data-scroll-target="#can-run-code-in-the-cells">Can run code in the cells</a></li>
-  <li><a href="#can-put-in-text-cells" id="toc-can-put-in-text-cells" class="nav-link" data-scroll-target="#can-put-in-text-cells">Can Put in Text Cells</a></li>
+  <li><a href="#file-extensions" id="toc-file-extensions" class="nav-link active" data-scroll-target="#file-extensions">File Extensions</a></li>
+  <li><a href="#binary-vs.-plain-text" id="toc-binary-vs.-plain-text" class="nav-link" data-scroll-target="#binary-vs.-plain-text">Binary Vs. Plain Text</a>
+  <ul class="collapse">
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  </ul></li>
+  <li><a href="#data-file-formats" id="toc-data-file-formats" class="nav-link" data-scroll-target="#data-file-formats">Data File Formats</a></li>
+  <li><a href="#folder-structure" id="toc-folder-structure" class="nav-link" data-scroll-target="#folder-structure">Folder Structure</a>
+  <ul class="collapse">
+  <li><a href="#fast-facts" id="toc-fast-facts" class="nav-link" data-scroll-target="#fast-facts">Fast Facts</a></li>
+  <li><a href="#user-folder-and-onedrive-folder" id="toc-user-folder-and-onedrive-folder" class="nav-link" data-scroll-target="#user-folder-and-onedrive-folder">User Folder and OneDrive Folder</a>
+  <ul class="collapse">
+  <li><a href="#user-folder" id="toc-user-folder" class="nav-link" data-scroll-target="#user-folder">User Folder</a></li>
+  <li><a href="#onedrive-folder" id="toc-onedrive-folder" class="nav-link" data-scroll-target="#onedrive-folder">OneDrive Folder</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z00.z07.python-in-google-colab.html">Hour 2: Running Python Online</a></li><li class="breadcrumb-item"><a href="../content/z00.z07.python-in-google-colab.html">Python in Google Colab</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z01.vscode.html">Middle</a></li><li class="breadcrumb-item"><a href="../content/z02.z01.files-and-folders.html">Files and Folders</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Python in Google Colab</h1>
+<h1 class="title">Files and Folders</h1>
 </div>
 
 
@@ -361,25 +340,90 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Can run Python code whenever you want without installing anything by going to <a href="https://colab.research.google.com">Google Colab</a>.</p>
-<p><img src="./images/colab2.png" class="img-fluid"></p>
-<hr>
-<section id="can-run-code-in-the-cells" class="level1">
-<h1>Can run code in the cells</h1>
-<p>Try typing</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span><span class="op">+</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>And hit <code>shift</code>+<code>enter</code>.</p>
-<p>It should display the output below.</p>
+<section id="file-extensions" class="level1">
+<h1>File Extensions</h1>
+<ul>
+<li>Enable them in your file explorer</li>
+<li>Can switch them back and forth</li>
+</ul>
 <hr>
 </section>
-<section id="can-put-in-text-cells" class="level1">
-<h1>Can Put in Text Cells</h1>
+<section id="binary-vs.-plain-text" class="level1">
+<h1>Binary Vs. Plain Text</h1>
 <ul>
-<li>Can write text in that document</li>
-<li>It supports Markdown</li>
+<li>Can open plain text files in a text editor ( and manually modify them), but you can’t with binary files</li>
+<li>Binary is more compressed</li>
+<li>Can version control plain text files</li>
+</ul>
+<hr>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<ul>
+<li>plain text
+<ul>
+<li>markdown</li>
+<li>python files</li>
+<li>txt file</li>
+<li>CSV files</li>
+<li>json files</li>
+</ul></li>
+<li>binary
+<ul>
+<li>excel</li>
+<li>word</li>
+<li>parquet</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="data-file-formats" class="level1">
+<h1>Data File Formats</h1>
+<ul>
+<li>JSON</li>
+<li>CSV</li>
+</ul>
+<hr>
+</section>
+<section id="folder-structure" class="level1">
+<h1>Folder Structure</h1>
+<p>This is about the folder structure on your computer.</p>
+<hr>
+<section id="fast-facts" class="level2">
+<h2 class="anchored" data-anchor-id="fast-facts">Fast Facts</h2>
+<ul>
+<li>Mac and linux usually use forward slashes <code>/</code>. Windows uses backslashes <code>\</code>.
+<ul>
+<li>In many programming languages (including python), the backslash is an escape character, so you have to use two backslashes <code>\\</code> to get one.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="user-folder-and-onedrive-folder" class="level2">
+<h2 class="anchored" data-anchor-id="user-folder-and-onedrive-folder">User Folder and OneDrive Folder</h2>
+<p>There are two folders that are of particular importance: your user folder, and your OneDrive folder.</p>
+<section id="user-folder" class="level3">
+<h3 class="anchored" data-anchor-id="user-folder">User Folder</h3>
+<ul>
+<li>Your user folder is usually in <code>/Users/&lt;your-name&gt;</code>. So, mine is in <code>/Users/grantsmith</code>.</li>
+<li>You have free reign in here. You usually don’t need admin to do things here, and you can’t break things as much when operating here.</li>
+<li>When you do things above that folder is sometimes when you need admin and when you can break things.</li>
+</ul>
+</section>
+<section id="onedrive-folder" class="level3">
+<h3 class="anchored" data-anchor-id="onedrive-folder">OneDrive Folder</h3>
+<ul>
+<li>Oftentimes IT will suggest that you work in your OneDrive folder or one of its subfolders. In this course, we won’t do that.
+<ul>
+<li>Putting things in OneDrive can be nice because work is saved, but it can be a pain.</li>
+<li>Oftentimes when programming, software will be installed in the folder you’re working in. So if you’re working in OneDrive, it will try to upload all that software that you install, which you don’t want.</li>
+<li></li>
+</ul></li>
 </ul>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

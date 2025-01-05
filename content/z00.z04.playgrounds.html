@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Python in Google Colab</title>
+<title>Playgrounds</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -116,7 +82,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z00.z07.python-in-google-colab.html">Hour 2: Running Python Online</a></li><li class="breadcrumb-item"><a href="../content/z00.z07.python-in-google-colab.html">Python in Google Colab</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z00.z03.previews.html">Hour 1: A Preview</a></li><li class="breadcrumb-item"><a href="../content/z00.z04.playgrounds.html">Playgrounds</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -167,7 +133,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/z00.z04.playgrounds.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/z00.z04.playgrounds.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Playgrounds</span></a>
   </div>
 </li>
@@ -190,7 +156,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/z00.z07.python-in-google-colab.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/z00.z07.python-in-google-colab.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Python in Google Colab</span></a>
   </div>
 </li>
@@ -334,17 +300,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#can-run-code-in-the-cells" id="toc-can-run-code-in-the-cells" class="nav-link active" data-scroll-target="#can-run-code-in-the-cells">Can run code in the cells</a></li>
-  <li><a href="#can-put-in-text-cells" id="toc-can-put-in-text-cells" class="nav-link" data-scroll-target="#can-put-in-text-cells">Can Put in Text Cells</a></li>
+  <li><a href="#git-and-git-graphs" id="toc-git-and-git-graphs" class="nav-link active" data-scroll-target="#git-and-git-graphs">Git and Git Graphs</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z00.z07.python-in-google-colab.html">Hour 2: Running Python Online</a></li><li class="breadcrumb-item"><a href="../content/z00.z07.python-in-google-colab.html">Python in Google Colab</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/z00.z03.previews.html">Hour 1: A Preview</a></li><li class="breadcrumb-item"><a href="../content/z00.z04.playgrounds.html">Playgrounds</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Python in Google Colab</h1>
+<h1 class="title">Playgrounds</h1>
 </div>
 
 
@@ -361,23 +326,36 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Can run Python code whenever you want without installing anything by going to <a href="https://colab.research.google.com">Google Colab</a>.</p>
-<p><img src="./images/colab2.png" class="img-fluid"></p>
-<hr>
-<section id="can-run-code-in-the-cells" class="level1">
-<h1>Can run code in the cells</h1>
-<p>Try typing</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span><span class="op">+</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>And hit <code>shift</code>+<code>enter</code>.</p>
-<p>It should display the output below.</p>
-<hr>
-</section>
-<section id="can-put-in-text-cells" class="level1">
-<h1>Can Put in Text Cells</h1>
+<p>Here are some playgrounds as a preview for things to come:</p>
 <ul>
-<li>Can write text in that document</li>
-<li>It supports Markdown</li>
+<li><a href="https://dillinger.io/">Markdown Playground</a> and <a href="https://dotmd-editor.vercel.app/">dotmd editor</a></li>
+<li><a href="https://www.diffchecker.com/text-compare/">Diff Checker</a></li>
+<li>Python
+<ul>
+<li><a href="https://colab.research.google.com">Google Colab</a></li>
+<li><a href="https://www.python.org/shell/">Python Shell</a></li>
+<li><a href="https://www.online-python.com/">Online Python</a></li>
+</ul></li>
+<li><a href="https://vscode.dev/">VSCode</a>
+<ul>
+<li>if you have github, try a <a href="https://github.com/codespaces">GitHub Codespace</a> (and click “use this template” under “blank”).</li>
+</ul></li>
+<li>==I really want to put a terminal playground in here==</li>
+<li>Can I also get a Git playground?
+<ul>
+<li>Can I get playgrounds for like everything??</li>
+</ul></li>
 </ul>
+<hr>
+<section id="git-and-git-graphs" class="level1">
+<h1>Git and Git Graphs</h1>
+<p>Google search “Git graph”, and scroll through the images</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/git-graph-google.png" class="img-fluid figure-img"></p>
+<figcaption>alt</figcaption>
+</figure>
+</div>
 
 
 </section>
