@@ -5,7 +5,7 @@
 2. Install Python if you don't already have it
 
 more
-
+srtdsrtd
 ## Rendering Locally
 
 1. Run `quarto preview`
