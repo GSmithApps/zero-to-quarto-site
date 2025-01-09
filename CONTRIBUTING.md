@@ -4,7 +4,7 @@
    - Can use [Homebrew](https://formulae.brew.sh/cask/quarto#default) if you want with `brew install quarto`
 2. Install Python if you don't already have it
 
-
+more
 
 ## Rendering Locally
 
