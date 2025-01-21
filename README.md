@@ -7,7 +7,7 @@ class: invert
 This site is the home for a training that takes people from Zero to Quarto.
 
 The goal of the training is to teach engineers, researchers, or anyone else
-how to use their computer write code a little better.  There are two main
+how to use their computer or write code a little better.  There are two main
 groups of people we see as a fit for this:
 
 - Engineers who work in industry and don't code much or at all.
@@ -23,14 +23,8 @@ We want to help them do the following
 - Streamline their workflows
 - Render and publish their research in a website,
 - Use modern collaboration and version control systems such as Git
-
-We want these scientists and researchers to get the benefits of
-using code -- chief among which are:
-
-- Version control and working more smoothly with colleagues and the open source community
-- Publishing a website to share findings
+  to allow working more smoothly with colleagues and the open source community
 - Using new packages and tools
-- Making things easier and more pleasant
 
 ---
 

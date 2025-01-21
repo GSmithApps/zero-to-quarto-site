@@ -18,11 +18,14 @@ website:
     - title: "Zero to Quarto"
       contents:
         - README.md
+        - section: "Hour 0: Prerequisites"
+          contents:
+          - content/z00.z02.prerequisites.md
         - section: "Hour 1: A Preview"
           contents:
           - content/z00.z03.previews.md
           - content/z00.z04.playgrounds.md
-          - content/z00.z05.contributing-to-this-site.md
+          - content/z00.z05.this-site.md
         - section: "Hour 2: Running Python Online"
           contents:
           - content/z00.z07.python-in-google-colab.md
@@ -48,6 +51,7 @@ website:
         - section: "Building a Package"
           contents:
           - content/z13.building-a-package.md
+          - content/z14.github.md
 format:
   html:
     theme: 
