@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,12 +35,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-6561bbde787c299e21493071c8edc6ff.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-b2511bcbb01c2159fd96a78deb42ffd9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-edd794c53699fd84178ad776ea73b894.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -334,7 +334,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#definition-list" id="toc-definition-list" class="nav-link" data-scroll-target="#definition-list">Definition List</a></li>
   <li><a href="#strikethrough" id="toc-strikethrough" class="nav-link" data-scroll-target="#strikethrough">Strikethrough</a></li>
   <li><a href="#task-list" id="toc-task-list" class="nav-link" data-scroll-target="#task-list">Task List</a></li>
-  <li><a href="#emoji" id="toc-emoji" class="nav-link" data-scroll-target="#emoji">Emoji</a></li>
   <li><a href="#highlight" id="toc-highlight" class="nav-link" data-scroll-target="#highlight">Highlight</a></li>
   <li><a href="#subscript" id="toc-subscript" class="nav-link" data-scroll-target="#subscript">Subscript</a></li>
   <li><a href="#superscript" id="toc-superscript" class="nav-link" data-scroll-target="#superscript">Superscript</a></li>
@@ -388,6 +387,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Is what’s rendered in GitHub.</li>
 <li>Is what people look for when they open a folder.</li>
 </ul></li>
+<li>pressing enter doesn’t put a return in the rendered text – you need to press enter twice.</li>
 </ul>
 <hr>
 </section>
@@ -398,8 +398,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="markdown-cheat-sheet" class="level1">
 <h1>Markdown Cheat Sheet</h1>
-<p>We copied and pasted this cheat sheet from <a href="https://www.markdownguide.org">The Markdown Guide</a>!</p>
-<p>This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for <a href="https://www.markdownguide.org/basic-syntax/">basic syntax</a> and <a href="https://www.markdownguide.org/extended-syntax/">extended syntax</a>.</p>
+<p>We copied and pasted this cheat sheet from <a href="https://www.markdownguide.org">The Markdown Guide</a>. It’s helpful to view this cheat sheet next to the rendering so you can see how it was typed and what it rendered. Here’s the cheat sheet:</p>
 <section id="basic-syntax" class="level2">
 <h2 class="anchored" data-anchor-id="basic-syntax">Basic Syntax</h2>
 <p>These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</p>
@@ -525,11 +524,6 @@ definition
 <li><label><input type="checkbox">Update the website</label></li>
 <li><label><input type="checkbox">Contact the media</label></li>
 </ul>
-</section>
-<section id="emoji" class="level3">
-<h3 class="anchored" data-anchor-id="emoji">Emoji</h3>
-<p>That is so funny! :joy:</p>
-<p>(See also <a href="https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji">Copying and Pasting Emoji</a>)</p>
 </section>
 <section id="highlight" class="level3">
 <h3 class="anchored" data-anchor-id="highlight">Highlight</h3>
@@ -781,6 +775,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -891,6 +887,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

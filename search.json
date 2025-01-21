@@ -26,7 +26,7 @@
     "href": "content/z08.python.html",
     "title": "Python Files",
     "section": "",
-    "text": "You can run local python files\nCan import from other files",
+    "text": "You can run local python files\nCan import from other files\nSharing code.. import with Python",
     "crumbs": [
       "Hour X: Running Python Locally",
       "Python Files"
@@ -103,7 +103,7 @@
     "href": "content/z00.z08.python-in-a-file.html",
     "title": "Python in a File",
     "section": "",
-    "text": "Can run Python code whenever you want without installing anything by going to Online Python.\n\n\nCan run code in the file\nTry typing\nprint(2+2)\nAnd press the run button.\nIt should display the output below.",
+    "text": "Can run Python code whenever you want without installing anything by going to Online Python.\n\n\n\nCan run code in the file\nTry typing\nprint(2+2)\nAnd press the run button.\nIt should display the output below.",
     "crumbs": [
       "Hour 2: Running Python Online",
       "Python in a File"
@@ -125,7 +125,7 @@
     "href": "content/z00.z03.previews.html",
     "title": "Previews",
     "section": "",
-    "text": "Here are some previews of things to come:\n\n\nVS Code\n\n\n\n\nGit Graphs\n\n\n\n\nComparing Files\n\n\n\n\nTracking Changes\n\n\n\n\nMarkdown",
+    "text": "Here are some previews of things to come:\n\n\nVS Code\n\n\n\n\nGit Graphs\n\n\n\n\nComparing Files\n\n\n\n\nTracking Changes\n\n\n\n\nMarkdown\n\n\n\n\nPython and Jupyter\n\n\n\n\nTerminal",
     "crumbs": [
       "Hour 1: A Preview",
       "Previews"
@@ -188,6 +188,13 @@
     "text": "Branching Structure\nThe main branch is what we use for our work. The gh-pages branch we don’t touch manually – it gets written to when we run the publish command mentioned above."
   },
   {
+    "objectID": "CONTRIBUTING.html#to-do",
+    "href": "CONTRIBUTING.html#to-do",
+    "title": "",
+    "section": "to do",
+    "text": "to do\nmaybe add a section about working together\nimporting python code\n==Sharing code.. import with Python=="
+  },
+  {
     "objectID": "CONTRIBUTING.html#footnotes",
     "href": "CONTRIBUTING.html#footnotes",
     "title": "",
@@ -199,7 +206,7 @@
     "href": "content/z00.z04.playgrounds.html",
     "title": "Playgrounds",
     "section": "",
-    "text": "Here are some playgrounds as a preview for things to come:\n\nMarkdown Playground and dotmd editor\nDiff Checker\nPython\n\nGoogle Colab\nPython Shell\nOnline Python\n\nVSCode\n\nif you have github, try a GitHub Codespace (and click “use this template” under “blank”).\n\n==I really want to put a terminal playground in here==\nCan I also get a Git playground?\n\nCan I get playgrounds for like everything??\n\n\n\n\nGit and Git Graphs\nGoogle search “Git graph”, and scroll through the images\n\n\n\nalt",
+    "text": "Here are some playgrounds as a preview for things to come:\n\nMarkdown Playground and dotmd editor\nDiff Checker\nPython\n\nGoogle Colab\nPython Shell\nOnline Python\n\nVSCode\n\nif you have github, try a GitHub Codespace (and click “use this template” under “blank”).\n\nTerminal Playground",
     "crumbs": [
       "Hour 1: A Preview",
       "Playgrounds"
@@ -221,7 +228,7 @@
     "href": "content/z00.z09.python-in-a-terminal.html",
     "title": "Python in a Terminal",
     "section": "",
-    "text": "Can run Python code in a terminal whenever you want without installing anything by going to Python’s online shell.\n\n\nCan type code and hit enter\nTry typing\n2+2\nAnd hit enter.\nIt should display the output below.",
+    "text": "Can run Python code in a terminal whenever you want without installing anything by going to Python’s online shell.\n\n\n\nCan type code and hit enter\nTry typing\n2+2\nAnd hit enter.\nIt should display the output below.",
     "crumbs": [
       "Hour 2: Running Python Online",
       "Python in a Terminal"
@@ -265,7 +272,7 @@
     "href": "content/z02.markdown.html#extended-syntax",
     "title": "Markdown",
     "section": "Extended Syntax",
-    "text": "Extended Syntax\nThese elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.\n\nTable\n\n\n\nSyntax\nDescription\n\n\n\n\nHeader\nTitle\n\n\nParagraph\nText\n\n\n\n\n\nFenced Code Block\n{\n  \"firstName\": \"John\",\n  \"lastName\": \"Smith\",\n  \"age\": 25\n}\n\n\nFootnote\nHere’s a sentence with a footnote. 1\n\n\nHeading ID\n\n\nMy Great Heading\n\n\nDefinition List\n\nterm\n\ndefinition\n\n\n\n\nStrikethrough\nThe world is flat.\n\n\nTask List\n\nWrite the press release\nUpdate the website\nContact the media\n\n\n\nEmoji\nThat is so funny! :joy:\n(See also Copying and Pasting Emoji)\n\n\nHighlight\nI need to highlight these ==very important words==.\n\n\nSubscript\nH2O\n\n\nSuperscript\nX2",
+    "text": "Extended Syntax\nThese elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.\n\nTable\n\n\n\nSyntax\nDescription\n\n\n\n\nHeader\nTitle\n\n\nParagraph\nText\n\n\n\n\n\nFenced Code Block\n{\n  \"firstName\": \"John\",\n  \"lastName\": \"Smith\",\n  \"age\": 25\n}\n\n\nFootnote\nHere’s a sentence with a footnote. 1\n\n\nHeading ID\n\n\nMy Great Heading\n\n\nDefinition List\n\nterm\n\ndefinition\n\n\n\n\nStrikethrough\nThe world is flat.\n\n\nTask List\n\nWrite the press release\nUpdate the website\nContact the media\n\n\n\nHighlight\nI need to highlight these ==very important words==.\n\n\nSubscript\nH2O\n\n\nSuperscript\nX2",
     "crumbs": [
       "Middle",
       "Markdown"
