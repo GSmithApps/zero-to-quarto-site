@@ -23,3 +23,12 @@ The `main` branch is what we use for our work.
 The `gh-pages` branch we don't touch manually -- it
 gets written to when we run the publish command mentioned
 above.
+
+## to do
+
+maybe add a section about working together
+
+importing python code
+
+==Sharing code.. import with Python==
+
