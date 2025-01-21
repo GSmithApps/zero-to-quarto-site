@@ -125,7 +125,7 @@
     "href": "content/z00.z07.python-in-google-colab.html",
     "title": "Python in Google Colab",
     "section": "",
-    "text": "Can run Python code whenever you want without installing anything by going to Google Colab.\n\n\n\nCan run code in the cells\nTry typing\n2+2\nAnd hit shift+enter.\nIt should display the output below.\n\n\n\nCan Put in Text Cells\n\nCan write text in that document\nIt supports Markdown",
+    "text": "Can run Python code whenever you want without installing anything by going to Google Colab.\n\n\n\nCan run code in chunks\nYou can run code in chunks, and see the output as you go.\nTry typing\n2+2\nAnd hit shift+enter.\nIt should display the output below the code.\n\n\n\nCan Put in Text Cells\nYou can also write text between the code cells, which can help explain your code.\nIt supports Markdown, which we’ll discuss more throughout this training.",
     "crumbs": [
       "Hour 2: Running Python Online",
       "Python in Google Colab"
