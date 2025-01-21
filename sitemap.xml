@@ -1,40 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z13.building-a-package.html</loc>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z14.github.html</loc>
+    <lastmod>2025-01-21T02:42:22.594Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z11.interactive-python.html</loc>
     <lastmod>2025-01-21T00:24:22.348Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z10.jupyter.html</loc>
-    <lastmod>2025-01-21T00:24:22.347Z</lastmod>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z09.virtual-environments.html</loc>
+    <lastmod>2025-01-21T00:24:22.346Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z08.python.html</loc>
-    <lastmod>2025-01-21T00:35:00.957Z</lastmod>
-  </url>
-  <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z07.path-variable.html</loc>
-    <lastmod>2024-12-10T01:15:43.231Z</lastmod>
-  </url>
-  <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z02.z01.files-and-folders.html</loc>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z07.z05.git.html</loc>
     <lastmod>2025-01-21T00:24:22.345Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z01.vscode.html</loc>
-    <lastmod>2024-12-16T04:03:34.254Z</lastmod>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z06.terminal.html</loc>
+    <lastmod>2024-12-10T01:15:43.233Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z08.python-in-a-file.html</loc>
-    <lastmod>2025-01-21T01:33:34.843Z</lastmod>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z02.markdown.html</loc>
+    <lastmod>2025-01-21T00:41:31.619Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z05.contributing-to-this-site.html</loc>
-    <lastmod>2025-01-21T00:24:22.344Z</lastmod>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z09.python-in-a-terminal.html</loc>
+    <lastmod>2025-01-21T01:33:46.118Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z03.previews.html</loc>
-    <lastmod>2025-01-21T00:47:08.947Z</lastmod>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z07.python-in-google-colab.html</loc>
+    <lastmod>2025-01-21T03:21:36.686Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z05.this-site.html</loc>
+    <lastmod>2025-01-21T02:53:28.332Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z02.prerequisites.html</loc>
+    <lastmod>2025-01-21T02:29:12.513Z</lastmod>
   </url>
   <url>
     <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z12.quarto.html</loc>
@@ -42,42 +46,46 @@
   </url>
   <url>
     <loc>https://GSmithApps.github.io/zero-to-quarto-site/README.html</loc>
-    <lastmod>2025-01-21T00:24:22.316Z</lastmod>
+    <lastmod>2025-01-21T02:19:24.789Z</lastmod>
   </url>
   <url>
     <loc>https://GSmithApps.github.io/zero-to-quarto-site/CONTRIBUTING.html</loc>
     <lastmod>2025-01-21T00:36:32.710Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z04.playgrounds.html</loc>
-    <lastmod>2025-01-21T01:28:37.507Z</lastmod>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z03.previews.html</loc>
+    <lastmod>2025-01-21T02:23:41.122Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z07.python-in-google-colab.html</loc>
-    <lastmod>2025-01-21T00:24:22.344Z</lastmod>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z06.playgrounds.html</loc>
+    <lastmod>2025-01-21T03:18:29.512Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z09.python-in-a-terminal.html</loc>
-    <lastmod>2025-01-21T01:33:46.118Z</lastmod>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z00.z08.python-in-a-file.html</loc>
+    <lastmod>2025-01-21T01:33:34.843Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z02.markdown.html</loc>
-    <lastmod>2025-01-21T00:41:31.619Z</lastmod>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z01.vscode.html</loc>
+    <lastmod>2025-01-21T03:22:38.950Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z06.terminal.html</loc>
-    <lastmod>2024-12-10T01:15:43.233Z</lastmod>
-  </url>
-  <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z07.z05.git.html</loc>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z02.z01.files-and-folders.html</loc>
     <lastmod>2025-01-21T00:24:22.345Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z09.virtual-environments.html</loc>
-    <lastmod>2025-01-21T00:24:22.346Z</lastmod>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z07.path-variable.html</loc>
+    <lastmod>2024-12-10T01:15:43.231Z</lastmod>
   </url>
   <url>
-    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z11.interactive-python.html</loc>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z08.python.html</loc>
+    <lastmod>2025-01-21T00:35:00.957Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z10.jupyter.html</loc>
+    <lastmod>2025-01-21T00:24:22.347Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GSmithApps.github.io/zero-to-quarto-site/content/z13.building-a-package.html</loc>
     <lastmod>2025-01-21T00:24:22.348Z</lastmod>
   </url>
 </urlset>
