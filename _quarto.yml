@@ -31,27 +31,27 @@ website:
           - content/z00.z07.python-in-google-colab.md
           - content/z00.z08.python-in-a-file.md
           - content/z00.z09.python-in-a-terminal.md
-        - section: "Middle"
+        - section: "Hour 3: Setting Up Your Local Environment"
           contents:
           - content/z01.vscode.md
           - content/z02.markdown.md
           - content/z02.z01.files-and-folders.md
           - content/z06.terminal.md
           - content/z07.path-variable.md
+        - section: "Hour 4: Working Together"
+          contents:
           - content/z07.z05.git.md
-        - section: "Hour X: Running Python Locally"
+          - content/z07.z06.github.md
+        - section: "Hour 5: Running Python Locally"
           contents:
           - content/z08.python.md
           - content/z09.virtual-environments.md
           - content/z10.jupyter.md
           - content/z11.interactive-python.md
+          - content/z11.z05.building-a-package.md
         - section: "Hour X: Quarto"
           contents:
           - content/z12.quarto.qmd
-        - section: "Building a Package"
-          contents:
-          - content/z13.building-a-package.md
-          - content/z14.github.md
 format:
   html:
     theme: 
