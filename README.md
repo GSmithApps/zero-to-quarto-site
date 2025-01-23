@@ -7,7 +7,7 @@ class: invert
 This site is the home for a training that takes people from Zero to Quarto.
 
 The goal of the training is to teach engineers, researchers, or anyone else
-how to use their computer or write code a little better.  There are two main
+how to use their computer or write code a little better. There are two main
 groups of people we see as a fit for this:
 
 - Engineers who work in industry and don't code much or at all.
